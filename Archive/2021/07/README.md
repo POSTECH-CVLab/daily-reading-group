@@ -1,5 +1,5 @@
 # 2021 July
-## Full List of papers
+## Full List of papers - updated weekly
 
 * Baking Neural Radiance Fields for Real-Time View Synthesis ([진오](./summary/1.md))
 * NeRF: Representation Scenes as Neural Radiance Fields for View synthesis ([민국](./summary/2.md))
