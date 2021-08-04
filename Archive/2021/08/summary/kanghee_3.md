@@ -6,11 +6,11 @@
 **Task**) \
 Indoor scene의 entire map pcd가 있고 input으로는 scene의 일부에 해당하는 frame이 rgb-d로 들어올때 전체 map에서 어디에 해당하는지 6DoF를 추정하는 task이다.
 	
-**Motivation**) \ 
+**Motivation**) \
 기존의 CNN 혹은 decision tree를 이용하여 2D/3D-3D correspondence를 찾고 localization을 수행하는 연구들은 static input img sequence에서만 잘 동작하고 
 dynamic environments에서는 성능이 큰 폭으로 하락한다.
 
-**Contribution**) \ 
+**Contribution**) \
 Dynamic환경에서의 outlier들을 제대로 못 잡아내서 생기는 correspondence error를 outlier-aware module을 통해 해결했다. 
 해당 모듈을 통해 input points중 outlier point는 제외시키고 training때 보았던 static points에 대해서만 correspondence를 찾아내서 정확한 localization을 수행할 수 있도록 유도했다.
 	
