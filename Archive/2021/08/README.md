@@ -1,3 +1,3 @@
 # 2021 August
-## Full List of papers
+## Full List of papers - updated weekly
 
