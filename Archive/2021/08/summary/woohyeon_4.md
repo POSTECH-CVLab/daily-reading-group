@@ -27,8 +27,8 @@ inject domain-specific style code into generator to diversify the synthesized im
 				
 * Training: adversarial loss for latent-guided synthesis, style reconstruction loss between latent code and the outputs of corresponding synthesized image from the style encoder, diversity sensitive loss that enforces the different codes to produce different outputs, cycle consistency loss that takes the style code of an image and reconstructs it from once-translated one by changing the code to the original.
 		
-** Other Contribution ** : new animal face dataset (AFHQ) for three domains (cat, dog, wildlife)
+**Other Contribution** : new animal face dataset (AFHQ) for three domains (cat, dog, wildlife)
 
-** Experiments ** : the components were effective in following order (latent code injection ⇒ style code embedding ⇒ reconstruction & cycle-consistency loss ⇒ multi-task discriminator ⇒ diversity regularization)
+**Experiments** : the components were effective in following order (latent code injection ⇒ style code embedding ⇒ reconstruction & cycle-consistency loss ⇒ multi-task discriminator ⇒ diversity regularization)
 	
-** 총평 ** : StyleGAN을 image-to-image translation에 early-adopt한 논문. 이미지 생성을 latent-code와 reference-image 기반으로 하는 것이 application 측면에서 아주 흥미로웠지만 학습 과정이 복잡한 것이 아쉬웠음.
+**총평** : StyleGAN을 image-to-image translation에 early-adopt한 논문. 이미지 생성을 latent-code와 reference-image 기반으로 하는 것이 application 측면에서 아주 흥미로웠지만 학습 과정이 복잡한 것이 아쉬웠음.
