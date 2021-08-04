@@ -5,12 +5,12 @@
 **Task**: Synthesizing diverse images over multiple domains using a single generator
 
 **Background**: Domain and Style? \
-⇒ domain implies a set of images that can be grouped as a visually distinctive category. \
-⇒ style is an unique appearance/characteristic of an image in the domain, e.g., makeup, beard and hairstyle where the domain is set to person.
+* domain implies a set of images that can be grouped as a visually distinctive category. \
+* style is an unique appearance/characteristic of an image in the domain, e.g., makeup, beard and hairstyle where the domain is set to person.
 	
 **Main Contribution** \
-replace domain label with domain-specific style code so as to represent diverse styles of a specific domain. \
-inject domain-specific style code into generator to diversify the synthesized images within the designated domain.
+* replace domain label with domain-specific style code so as to represent diverse styles of a specific domain. \
+* inject domain-specific style code into generator to diversify the synthesized images within the designated domain.
 	
 **Method**: Generating domain specific images with variety of style code \
 * Style-code generation \
