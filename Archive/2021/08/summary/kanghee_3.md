@@ -15,13 +15,13 @@ Dynamic환경에서의 outlier들을 제대로 못 잡아내서 생기는 corres
 해당 모듈을 통해 input points중 outlier point는 제외시키고 training때 보았던 static points에 대해서만 correspondence를 찾아내서 정확한 localization을 수행할 수 있도록 유도했다.
 	
 **Method**) \
-네 가지로 구성된다.
+네 가지로 구성된다. \
 (a) Hierarchical space partition : 3D scene map pcd를 physically 나눠서 subregion을 만드는데 이 작업을 계층적으로 계속 반복하여 각 subregion들이 tree의 node를 구성하도록 한다. 
-Entire map은 tree의 root node에 해당하고 각 child node는 parent node의 subregion들이 된다.
+Entire map은 tree의 root node에 해당하고 각 child node는 parent node의 subregion들이 된다. \
 (b) Neural routing function : Tree에서 routing을 시작하는데 input query point와 neighborhood points를 가지고 어떤 child node로 routing해줄지 결정하는 함수이다. 
 Leaf node는 Scene map pcd에서의 points set를 의미한다. 결국, input points+neighbor points를 인풋으로 하여 Tree root node부터 출발하여 점점 subregion들로 routing해가며 
 최종적으로 map pcd에서 실제 points set을 의미하는 leaf node로 mapping된다. 
-이때 한 가지 주목할 점은, leaf node를 선택할때 leaf node들 중 score가 가장 높은 node를 선택하는 방식이 아니라, routing과정에서 거쳤던 모든 node들의 score들을 곱하면서 accumulate probabilities를 통해 leaf node를 선택하게 된다.
+이때 한 가지 주목할 점은, leaf node를 선택할때 leaf node들 중 score가 가장 높은 node를 선택하는 방식이 아니라, routing과정에서 거쳤던 모든 node들의 score들을 곱하면서 accumulate probabilities를 통해 leaf node를 선택하게 된다. \
 
 **Neighbourhood points?** \
 해당하는 split node에서의 region에서 randomly sampled된다. 즉, 각 level마다 split node가 represent하는 region크기가 다르므로 sampling되는 ball query크기도 다른 것이다. 
@@ -40,7 +40,7 @@ Routing function을 각각의 level의 split node들에 대해 따로 학습한�
 (c) Outlier rejection : dynamic input points에 대해 outlier임을 알아차리지 못하면 잘못된 point correspondence를 만들게 되고 이는 결국 false 6DoF prediction을 야기시킨다. 
 해당 논문에서는 Tree에서 각 node들이 subregion을 child node로 갖게 하면서 동시에 outlier node도 child node로 갖도록 한다. 
 다시 말해, Map을 계층적으로 k subregion씩 나눴다면, Tree에서 각 node는 k개가 아닌 k+1(outlier node)의 child node를 갖게 된다. 
-이로써 outlier point가 input으로 들어 왔을때는 leaf node로 나아가지 못하도록, outlier node에서 routing이 끊기도록 한다.
+이로써 outlier point가 input으로 들어 왔을때는 leaf node로 나아가지 못하도록, outlier node에서 routing이 끊기도록 한다. \
 
 (d) Camera pose estimation : RANSAC을 이용함.
 
