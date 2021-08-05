@@ -1,6 +1,6 @@
 # Polygonal Building Extraction by Frame Field Learning
-### Author information - CVPR 2021 (best paper candidate but not oral)
-#### Summarized by Suhyun Jung
+### Author information - CVPR 2021 (best paper candidate)
+#### Summarized by Suhyeon Jeong
 ---
 
 **Overview** : segmentation performance 를 향상시키고(e.g. yielding sharper corner) vectorization 시 유용한 information 을 제공하는 Frame field output 을 추가하여 polygonalization 에 도움이 되는 추가적인 geometrical information 을 제공하고, segmentation 이 더 반듯하게 output 을 추출하도록 도와 polygonal building extraction  의 성능을 높였다. 
