@@ -13,12 +13,12 @@
 * inject domain-specific style code into generator to diversify the synthesized images within the designated domain.
 	
 **Method**: Generating domain specific images with variety of style code
-* Style-code generation
+* Style-code generation \
 ⇒ mapping network - given latent code: transforms a latent code into style codes for random image synthesis. \
 ⇒ style encoder - given image: extracts the style code from an image to perform reference-guided image synthesis. \
 ⇒ both networks have multiple output branches, each of which provides style codes for a specific domain.
 
-* Image-to-image translation
+* Image-to-image translation \
 ⇒ inject domain-specific style code using adaptive instance normalization (adaIN). \
 ⇒ synthesize images of all domains using a single generator.
 		
