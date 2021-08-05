@@ -13,19 +13,19 @@
 * inject domain-specific style code into generator to diversify the synthesized images within the designated domain.
 	
 **Method**: Generating domain specific images with variety of style code
-* Style-code generation \
+* **Style-code generation** \
 ⇒ mapping network - given latent code: transforms a latent code into style codes for random image synthesis. \
 ⇒ style encoder - given image: extracts the style code from an image to perform reference-guided image synthesis. \
 ⇒ both networks have multiple output branches, each of which provides style codes for a specific domain.
 
-* Image-to-image translation \
+* **Image-to-image translation** \
 ⇒ inject domain-specific style code using adaptive instance normalization (adaIN). \
 ⇒ synthesize images of all domains using a single generator.
 		
-* Discriminator
+* **Discriminator** \
 ⇒ distinguishes between real and fake images for each domain (multi-task discriminator).
 				
-* Training: adversarial loss for latent-guided synthesis, style reconstruction loss between latent code and the outputs of corresponding synthesized image from the style encoder, diversity sensitive loss that enforces the different codes to produce different outputs, cycle consistency loss that takes the style code of an image and reconstructs it from once-translated one by changing the code to the original.
+* **Training:** adversarial loss for latent-guided synthesis, style reconstruction loss between latent code and the outputs of corresponding synthesized image from the style encoder, diversity sensitive loss that enforces the different codes to produce different outputs, cycle consistency loss that takes the style code of an image and reconstructs it from once-translated one by changing the code to the original.
 		
 **Other Contribution** : new animal face dataset (AFHQ) for three domains (cat, dog, wildlife)
 
