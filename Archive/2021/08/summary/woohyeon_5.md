@@ -2,7 +2,7 @@
 ### Minming Gong et al., University of Pittsburgh - NeurIPS 2019 (Spotlight)
 ### Summarized by Woohyeon Shim
 
-**Task**: address the source of the low diversity issue of ACGAN
+**Task**: to address the source of the low diversity issue of ACGAN
 	
 **ACGAN?** \
 ⇒ has 3 main objectives: marginal matching with JSD between Q_x and P_x (P: real data distribution, Q: fake data distribution), conditional matching (CE loss on real data, CE loss on fake data). \
