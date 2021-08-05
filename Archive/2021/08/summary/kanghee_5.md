@@ -10,8 +10,8 @@ Place Recognition with point cloud data
 dynamic situation을 represent하기 위해서는 segments들을 matching하는 방법으로 place를 인식해야하는데 정확하고 stable한 segment feature를 얻는 것 자체가 힘들고 
 기존 method들은 segment간의 relation은 무시하고 있다. 그러나 segment의 relation들이 scene expression의 핵심이다.
 
-**Contribution**) \
-1) propose a novel semantic graph representation for 3D pcd scenes which captures semantic information and models topological relations between semantic objects \
+**Contribution**)
+1) propose a novel semantic graph representation for 3D pcd scenes which captures semantic information and models topological relations between semantic objects
 2) propose an efficient network to estimate the graph matching similarity among pcd scenes
 	
 **Method**) \
