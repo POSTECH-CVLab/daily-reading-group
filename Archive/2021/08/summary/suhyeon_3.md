@@ -15,8 +15,8 @@
  
 
 **Method** : 
-*blocked local attention*: 각 pixel 을 query 로 두었던 SASA 와는 달리, HaloNet 은 image 를 block 으로 나누어 같은 block 내의 pixel 들끼리 공유하는 local neighborhood 를 한꺼번에 extract 하여 연산량 및 receptive field 증가 시 memory/speed 패널티를 줄였다. 각 block 은 query 들의 group 처럼 동작한다. 단, 이렇게 pixel 별이 아닌 block 별 attention 을 진행함으로서 pixel-level translational equivariance 가 깨지게 된다. pixel-level translational equivariance 가 block-level translational equivariance 로 relax 되는 것이다. 하지만 저자는 실험적으로 이러한 relaxing translational equivariance 로 인한 성능 저하보다 receptive field 가 증가함으로서 생기는 이익이 더 크다는 것을 보였다. 
-*attention downsampling* : SASA 에서는 average pooling 으로 처리했던 downsampling 을 HaloNet 에서는 query 를 subsampling 하여 single strided attention layer 만으로도 convolution 과 같은 downsampling 효과를 내었다. subsampling 한 query 만 연산하면 되기에  FLOPs 가 몇 배로 줄어들지만 accuracy 에는 큰 영향이 없었다고 한다. 이로 인해 computational cost 가 너무 커 학습이 어려웠던 large self-attention model 들을 개선할 수 있게 되었다 
+**blocked local attention**: 각 pixel 을 query 로 두었던 SASA 와는 달리, HaloNet 은 image 를 block 으로 나누어 같은 block 내의 pixel 들끼리 공유하는 local neighborhood 를 한꺼번에 extract 하여 연산량 및 receptive field 증가 시 memory/speed 패널티를 줄였다. 각 block 은 query 들의 group 처럼 동작한다. 단, 이렇게 pixel 별이 아닌 block 별 attention 을 진행함으로서 pixel-level translational equivariance 가 깨지게 된다. pixel-level translational equivariance 가 block-level translational equivariance 로 relax 되는 것이다. 하지만 저자는 실험적으로 이러한 relaxing translational equivariance 로 인한 성능 저하보다 receptive field 가 증가함으로서 생기는 이익이 더 크다는 것을 보였다. 
+**attention downsampling** : SASA 에서는 average pooling 으로 처리했던 downsampling 을 HaloNet 에서는 query 를 subsampling 하여 single strided attention layer 만으로도 convolution 과 같은 downsampling 효과를 내었다. subsampling 한 query 만 연산하면 되기에  FLOPs 가 몇 배로 줄어들지만 accuracy 에는 큰 영향이 없었다고 한다. 이로 인해 computational cost 가 너무 커 학습이 어려웠던 large self-attention model 들을 개선할 수 있게 되었다 
 
 
  
