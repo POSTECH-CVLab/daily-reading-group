@@ -13,9 +13,9 @@
 
 **Method** : Reinforcement Learning 과 관련된 environment (Section 4) 말고, Section 5. Model 에서 설명된 learning- based model 의 내용을 요약하겠다. 
 논문에서 제시한 모델은 세 파트로 나뉘어진다. 
-Shape Selection : 다음에 쌓을 Shape 를 선정한다. Learning-based model 의 본체
-Location Selection : heuristic 하게 Shape 를 쌓을  location 을 선정하는데, 가능한 location 중 가장 bottom-most , left-most, back-most 한 곳 부터 선정한다. preference 는 bottom > left >back 순이다.
-Rotation Selection : 마찬가지로 heuristic 하게 선정한다. shape 의 모양에서 smallest dimension 이 top-down direction 으로 align 하도록, second smallest dimension 이 left-right direction 으로, 마지막 largest dimension 이 front-back 으로 align  하도록 rotation 을 맞춘다.
+1) Shape Selection : 다음에 쌓을 Shape 를 선정한다. Learning-based model 의 본체
+2) Location Selection : heuristic 하게 Shape 를 쌓을  location 을 선정하는데, 가능한 location 중 가장 bottom-most , left-most, back-most 한 곳 부터 선정한다. preference 는 bottom > left >back 순이다.
+3) Rotation Selection : 마찬가지로 heuristic 하게 선정한다. shape 의 모양에서 smallest dimension 이 top-down direction 으로 align 하도록, second smallest dimension 이 left-right direction 으로, 마지막 largest dimension 이 front-back 으로 align  하도록 rotation 을 맞춘다.
 
 Learning based model for Shape Selection : 
 1) feature extraction : voxels of each candidate shape, voxels of the box with already placed shape 를 3 residual blocks of fully connected layer 에 통과시켜 box 로부터 feature b 를, candidate shape 들로부터 feature s_0, s_1, s_2 ... 를 뽑아낸다. 
