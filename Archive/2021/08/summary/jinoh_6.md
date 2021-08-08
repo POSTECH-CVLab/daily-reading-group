@@ -1,5 +1,5 @@
 # Contrastive Learning for Unpaired Image to Image Translation
-### Taesung Park et al. - NeurIPS 2020
+### Taesung Park et al.(University of California, Berkeley) - NeurIPS 2020
 #### Summarized by Jinoh Cho
 	
 # Task: Image to Image Translation
@@ -24,14 +24,14 @@
 
 # Strong Point :
 	
-	1. image to image translation task에서 어떻게 하면 contrastive loss를 디자인 해야 content를 잘 유지 할 수 있을까에 대한 고찰과 이에 대한 실험적 결과가 근거로 잘 제시된 논문이다.
-	
-	2. 일반적으로 contrastive loss를 image set단위로 하나 이 논문에서는 patch단위로 contrastive loss를 사용함으로서 single image pair만으로도 contrastive loss를 사용할 수 있어 메모리를 줄일 수 있다는 장점이 있음. 
+1. image to image translation task에서 어떻게 하면 contrastive loss를 디자인 해야 content를 잘 유지 할 수 있을까에 대한 고찰과 이에 대한 실험적 결과가 근거로 잘 제시된 논문이다.
+
+2. 일반적으로 contrastive loss를 image set단위로 하나 이 논문에서는 patch단위로 contrastive loss를 사용함으로서 single image pair만으로도 contrastive loss를 사용할 수 있어 메모리를 줄일 수 있다는 장점이 있음. 
 	 
 	
 # Weak Point :
 	
-	1. Failure Case에서 볼 수 있듯이 unfamiliar pose of the horse를 보게 되면 texture를 background에 추가하는 경우가 있으며, 고양이->개 task에서는 없던 혀를 생성하는 문제 등이 발생하는 것을 볼 수 있음.
+1. Failure Case에서 볼 수 있듯이 unfamiliar pose of the horse를 보게 되면 texture를 background에 추가하는 경우가 있으며, 고양이->개 task에서는 없던 혀를 생성하는 문제 등이 발생하는 것을 볼 수 있음.
 	 
 # Experiments:
 
