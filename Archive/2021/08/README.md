@@ -24,4 +24,5 @@
 * Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations ([우현](./summary/woohyeon_3.md))
 * StarGAN v2: Diverse Image Synthesis for Multiple Domains ([우현](./summary/woohyeon_4.md))
 * Twin Auxiliary Classifier GAN ([우현](./summary/woohyeon_5.md))
+* ACE: Ally Complementary Experts for Solving Long-Tailed Recognition in One-Shot ([우현](./summary/woohyeon_6.md))
 * Putting NeRF on a Diet: Semantically Consistent Few-Shot View Synthesis ([윤우](./summary/yoonwoo_3.md))
