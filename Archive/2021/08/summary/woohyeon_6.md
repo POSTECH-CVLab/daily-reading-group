@@ -30,4 +30,4 @@
   * This work is the first one that improves performance on all the three frequency groups (many-shot, medium-shot and few-shot)
   * The suppression of the logits for IC is the principal reason for accuracy booms. But the manual distribution of samples was disappointing.
 	
-**총평:** 시작이 거창하고 결과도 유의미하며 전반적으로 글이 아주 잘 써져있었으나 접근 방법과 분석이 아쉬운 논문. 사실 방법이 너무나 단순하여 분석하는게 쉽진 않아보임. 그래서 언뜻 보기엔 발전 가능성이 많아 보이는 분야 같기도 함. Oral로 합격된 것은 최종 성능이 많이 높아진 것과 다른 방법들의 상세한 서술과 성능을 비교한 것에 있지 않을까 싶은데 관련 웍을 한다면 꼭 읽어보아야 하는 논문인 것 같음.
+**총평:** 거창하게 시작해서 결과도 유의미하며 전반적으로 글이 아주 잘 써져있었으나 접근 방법과 분석이 아쉬운 논문. 사실 방법이 너무나 단순하여 분석하는게 쉽진 않아보임. 그래서 언뜻 보기엔 발전 가능성이 많아 보이는 분야 같기도 함. Oral로 합격된 것은 최종 성능이 많이 높아진 것과 다른 방법들의 상세한 서술과 성능을 비교한 것에 있지 않을까 싶은데 관련 웍을 한다면 꼭 읽어보아야 하는 논문인 것 같음.
