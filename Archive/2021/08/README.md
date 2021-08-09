@@ -1,33 +1,25 @@
 # 2021 August
 ## Full List of papers - updated weekly
-
-### Week 1
-
 * GIRAFFE : Representing Scenes as Compositional Generative Neural Feature Fields ([진오](./summary/jinoh_1.md))
 * Closed-From Factorization of Latent Semantics in GANs ([진오](./summary/jinoh_3.md))
 * GANSpace: Discovering Interpretable GAN Controls ([진오](./summary/jinoh_4.md))
 * Contrastive Learning for Unpaired Image to Image Translation ([진오](./summary/jinoh_6.md))
 * Momentum Contrast for Unsupervised Visual Representation Learning ([진오](./summary/jinoh_7.md))
-
 * CORAL - Colored structural representation for bi-modal place recognition ([강희](./summary/kanghee_2.md))
 * Robust Neural Routing Through Space Partitions for Camera Relocalization in Dynamic Indoor Environments ([강희](./summary/kanghee_3.md))
 * Semantic Graph Based Place Recognition for 3D Point Clouds ([강희](./summary/kanghee_5.md))
-
 * Emerging Properties in Self-Supervised Vision Transformers ([민국](./summary/minguk_2.md))
 * Omni-GAN: On the Secrets of cGANs and Beyond ([민국](./summary/minguk_4.md))
- 
 * On the difficulty of training Recurrent Neural Networks ([승욱](./summary/seungwook_2.md))
 * Spatial-Temporal Transformer for Dynamic Scene graph Generation ([승욱](./summary/seungwook_3.md))
 * A Closer Look at Memorization in Deep Networks ([승욱](./summary/seungwook_4.md))
 * An Empirical Study of Training Self-Supervised Vision Transformers ([승욱](./summary/seungwook_5.md))
 * End-to-End Object Detection with Transformers ([승욱](./summary/seungwook_6.md))
- 
 * Polygonal Building Extraction by Frame Field Learning ([수현](./summary/suhyeon_1.md))
 * Stand-Alone Self-Attention in Vision Models ([수현](./summary/suhyeon_2.md))
 * Scaling Local Self-Attention for Parameter Efficient Visual Backbones ([수현](./summary/suhyeon_3.md))
 * Where and What ? Examining Interpretable Disentangled Representations ([수현](./summary/suhyeon_4.md))
 * PackIt: A virtual Environment for Geometric Planning ([수현](./summary/suhyeon_5.md))
- 
 * NeRD: Neural 3D Reflection Symmetry Detector ([우현](./summary/woohyeon_2.md))
 * Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations ([우현](./summary/woohyeon_3.md))
 * StarGAN v2: Diverse Image Synthesis for Multiple Domains ([우현](./summary/woohyeon_4.md))
