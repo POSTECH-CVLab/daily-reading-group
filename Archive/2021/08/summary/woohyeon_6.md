@@ -19,11 +19,12 @@
 		
 * **Ally complementary experts (ACE)**
   * **Distribution-aware Planner**
-		* Manually distributes overlapping category splits for each expert, including target categories (TC) and interfering categories (IC).
-		* Training for TC simply proceeds with CE loss, but for IC the logit is suppressed by l2 norm to learn the experts without being disturbed by the classes they have never seen.
-	* **Distribution-adaptive optimizer**
-		* Controls the update of each expert according to the volume of its training set and avoid over-fitting. Following linear scaling rule, scale the learning rate by k when the minibatch size is multiplied by k. (All the other hyper-parameters [weight decay, momentum, etc.] are kept unchanged.)
-		* The loss of E(xpert)1 updates the backbone and parameters of E1 and L_i of i > 1 only updates the expert itself. The reason is the backbone could be corrected multiple times due to the same error. Here, the number of samples is assumed in descending order (the majority of samples are assigned to E1).
+	* Manually distributes overlapping category splits for each expert, including target categories (TC) and interfering categories (IC).
+	* Training for TC simply proceeds with CE loss, but for IC the logit is suppressed by l2 norm to learn the experts without being disturbed by the classes they have never seen.
+
+  * **Distribution-adaptive optimizer**
+	* Controls the update of each expert according to the volume of its training set and avoid over-fitting. Following linear scaling rule, scale the learning rate by k when the minibatch size is multiplied by k. (All the other hyper-parameters [weight decay, momentum, etc.] are kept unchanged.)
+	* The loss of E(xpert)1 updates the backbone and parameters of E1 and L_i of i > 1 only updates the expert itself. The reason is the backbone could be corrected multiple times due to the same error. Here, the number of samples is assumed in descending order (the majority of samples are assigned to E1).
 		
 * **Experiments**
   * This work is the first one that improves performance on all the three frequency groups (many-shot, medium-shot and few-shot)
