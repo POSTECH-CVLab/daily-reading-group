@@ -18,7 +18,9 @@
 
 **1)non-local operation**: 
 논문에서는 일반화된 non-local operation 에 대해 다음과 같이 정의하였다. 
+
 y_i = 1/C(x) * sum( f(x_i,x_j) g(x_j) )              <-모든 j 에 대해 sum
+
 pairwise function f 는 i, j 사이 relationship 을 계산하고, g 는 j 의 representation 을 계산한다. C(x) 는 normalization factor 이다. 이 f 와 g 는 다양한 variation 이 존재할 수 있는데, 본 논문에서 g 의 경우 linear embedding 만 고려하였다. 
 f 에 대해서는 다음과 같은 네 가지 operation 을 제안하였다. 
 
