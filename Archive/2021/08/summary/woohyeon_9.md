@@ -10,11 +10,11 @@
 * In this work they simply harness and utilize the above described phenomenon in image synthesis.
 	
 **Method**	
-* **A post-processing procedure via the guidance of a given robust classifier**
-  * **Basic principle:** iterative update through Projected Gradient Descent (PGD) over the robust classifier.
-  * **For conditional model:** update by maximizing the corresponding conditional probability.
-  * **For unconditional model:** update by maximizing the probability of the most likely class predicted by the robust classifier.\
-	**⇒⇒⇒ Model-agnostic method (both conditional or unconditional)**
+  * **A post-processing procedure via the guidance of a given robust classifier**
+    * **Basic principle:** iterative update through Projected Gradient Descent (PGD) over the robust classifier.
+    * **For conditional model:** update by maximizing the corresponding conditional probability.
+    * **For unconditional model:** update by maximizing the probability of the most likely class predicted by the robust classifier.\
+    **⇒⇒⇒ Model-agnostic method (both conditional or unconditional)**
 		
   * **Issue: unbalanced label distribution for unconditional model**
     * **Solution1?** sampling debiasedly to attain close to uniform class estimation? → computationally heavy and not fair for quantitative comparison (requiring more samples to achieve a label-balance).
