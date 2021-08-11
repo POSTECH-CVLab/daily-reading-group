@@ -25,7 +25,7 @@
     * Add objectives in PGD that match source features to target features
     * Control the degree of interpolation by altering maximum perturbation values.
   
-  **Details**			
+  * **Details**			
     * **choose l2 ball** as threat model since a change of ±e to every pixel l∞ ball with might not preserve the existing structure of the synthesized
 
 **Experiments:** Image generation on CIFAR10 with a variety of image generators of different qualities, Image interpolation on ImageNet.
