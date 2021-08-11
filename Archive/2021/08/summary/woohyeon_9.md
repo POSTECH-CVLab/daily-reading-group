@@ -28,5 +28,5 @@
   * **Details**			
     * **choose l2 ball** as threat model since a change of ±e to every pixel l∞ ball with might not preserve the existing structure of the synthesized
 
-**Experiments:** Image generation on CIFAR10 with a variety of image generators of different qualities, Image interpolation on ImageNet.
+**Experiments:** Image generation on CIFAR10 with a variety of image generators of different qualities, Image interpolation on ImageNet. \
 **총평:** 강점은 방법이 간단하고 model agnostic하고 additional training이 필요 없이 inference time에 적용할 수 있다는 점이지만, 단점으로 robust classifier에 전적으로 의존하며 기존 방법과 차별점이 거의 없고 어플리케이션만 달라진 것 같은 느낌을 줌. 그리고 generation 성능이 크게 향상되지 않으며 결과로 생성한 이미지는 작위적인 것 같음. large-scale 실험이 없는 것도 단점임.
