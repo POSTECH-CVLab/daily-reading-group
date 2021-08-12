@@ -8,6 +8,7 @@
 * CORAL - Colored structural representation for bi-modal place recognition ([강희](./summary/kanghee_2.md))
 * Robust Neural Routing Through Space Partitions for Camera Relocalization in Dynamic Indoor Environments ([강희](./summary/kanghee_3.md))
 * Semantic Graph Based Place Recognition for 3D Point Clouds ([강희](./summary/kanghee_5.md))
+* HRegNet : A Hierarchical Network for Large-scale Outdoor LiDAR Point Cloud Registration ([강희](./summary/kanghee_6.md))
 * Emerging Properties in Self-Supervised Vision Transformers ([민국](./summary/minguk_2.md))
 * Omni-GAN: On the Secrets of cGANs and Beyond ([민국](./summary/minguk_4.md))
 * On the difficulty of training Recurrent Neural Networks ([승욱](./summary/seungwook_2.md))
