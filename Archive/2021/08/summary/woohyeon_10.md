@@ -21,7 +21,7 @@
 		* **pass through a multi-head self-attention module** and linear layer.
 		* supplement with **fixed** spatial positional encodings, shared and added to the input of each attention layer
 	
-  * **transformer decoder**
+  	* **transformer decoder**
 		* **decode N objects in parallel** at each decoder layer
 		* add **learnt** positional encoding (refered as object queries) to the input for each attention layer, similarly to the encoder, to make different output for permutation-invariant input.
 	
