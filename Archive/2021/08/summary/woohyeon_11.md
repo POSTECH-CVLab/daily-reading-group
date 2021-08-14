@@ -18,9 +18,9 @@
 	* f* is a convex conjugate function of f, a.k.a Fenchel conjugate.
 	* f* is dual form of f i.e., f** = f and again convex and lower-semicontinuous.
 * **Variational lower bound of f-divergence** \ 
-	Df(P∥Q)= Int_X [q(x) sup_{t \in dom_{f*}} {t p(x)/q(x) −f*(t)} dx  (substituting variational form into Df(P|Q)) \
-	≥ sup_{T} [Int_X p(x)T(x)dx - int_X q(x)f*(T(x)) dx] \ 
-	= sup_{T} [Ex~P T(x) - Ex~Q f*(T(X))] \ 
+Df(P∥Q)= Int_X [q(x) sup_{t \in dom_{f*}} {t p(x)/q(x) −f*(t)} dx  (substituting variational form into Df(P|Q)) \
+≥ sup_{T} [Int_X p(x)T(x)dx - int_X q(x)f*(T(x)) dx] \ 
+= sup_{T} [Ex~P T(x) - Ex~Q f*(T(X))] \ 
 	* T is an arbitrary class of function T: X → R.
 	* This derivation is came from two reasons: (1) Jensen's inequality when swapping the integration and supremum operations, (2) the class of function T may contain only a subset of all possible functions.
 * **The bound is tight when T(x) = f' (p(x) / q(x))**
