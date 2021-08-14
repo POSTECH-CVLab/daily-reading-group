@@ -13,10 +13,10 @@
 	* ex) f(u) for KL: ulogu, Pearson: (u-1)^2, JS: -(u+1)log[(1+u)/2] + ulogu
 		
 **Variational estimation of f-divergences**
-  * **Variational representation of f**
-	f(u) = sup_{t \in dom_{f*}} tu - f*(t). \
-	  * f* is a convex conjugate function of f, a.k.a Fenchel conjugate.
-		* f* is dual form of f i.e., f** = f and again convex and lower-semicontinuous.
+  * **Variational representation of f** \
+	f(u) = sup_{t \in dom_{f*}} tu - f*(t).
+	* f* is a convex conjugate function of f, a.k.a Fenchel conjugate.
+	* f* is dual form of f i.e., f** = f and again convex and lower-semicontinuous.
 	* **Variational lower bound of f -divergence**
 		Df(P∥Q)= Int_X [q(x) sup_{t \in dom_{f*}} {t p(x)/q(x) −f*(t)} dx  (substituting variational form into Df(P|Q)) \
 		≥ sup_{T} [Int_X p(x)T(x)dx - int_X q(x)f*(T(x)) dx] \ 
