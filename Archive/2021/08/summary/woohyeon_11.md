@@ -6,11 +6,11 @@
 
 **Generative neural samplers?** is the same with generative model that takes a random vector and produces corresponding samples from a neural network.
 
-**f-divergence?** \
-	* Df(P||Q) = Int_X [q(x) f(p(x)/q(x)) dx]
-	* A difference between two given probability distributions P, Q w.r.t a base measure dx defined on the domain X.
-	* f: R+ → R is a convex, lower-semicontinuous function and satisfies f(1)=0.
-		* ex) f(u) for KL: ulogu, Pearson: (u-1)^2, JS: -(u+1)log[(1+u)/2] + ulogu
+**f-divergence?**
+* Df(P||Q) = Int_X [q(x) f(p(x)/q(x)) dx]
+* A difference between two given probability distributions P, Q w.r.t a base measure dx defined on the domain X.
+* f: R+ → R is a convex, lower-semicontinuous function and satisfies f(1)=0.
+	* ex) f(u) for KL: ulogu, Pearson: (u-1)^2, JS: -(u+1)log[(1+u)/2] + ulogu
 		
 **Variational estimation of f-divergences**
   * **Variational representation of f**
