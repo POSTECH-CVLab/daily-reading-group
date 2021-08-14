@@ -43,15 +43,15 @@
 	* hyperparameter λ is easy to tune, setting simply to 1 for discrete latent codes and make smaller for continuous variables to ensure that λLI (G, Q) is on the same scale as GAN objectives.
 		
 **Experiments**
-	* **investigating mutual information** ⇒ the lower bound is quickly maximized to H(c), but remains the same without mutual information maximization.
-	* **disentangling of latent codes on MNIST, Chair, SVHN and CelebA**
-		* MNIST: control digit shape by discrete code and style by two continuous codes (Unif(-1, 1)).
-		* Chair: control azimuth (pose), elevation, and lighting by five continuous codes (Unif(-1, 1)).
-		* SVHN: make use of four 10-dimensional categorical variable and two uniform continuous variables, as the dataset is noisy, containing distracting digits and does not have multiple variations of the same object.
-		* CelebA: use 10 uniform categorical variables, each of dimension 10. \
-	⇒ + can continuously interpolate by varying a continuous code with the others fixed. \
-	⇒ + show generalizability to unseen latent code. \
-	⇒ + can discover salient variation on its own (hair style, presence / absence of eyeglasses, and emotions) \
-	⇒ + competitive with representations learned by existing supervised method
+* **investigating mutual information** ⇒ the lower bound is quickly maximized to H(c), but remains the same without mutual information maximization.
+* **disentangling of latent codes on MNIST, Chair, SVHN and CelebA**
+	* MNIST: control digit shape by discrete code and style by two continuous codes (Unif(-1, 1)).
+	* Chair: control azimuth (pose), elevation, and lighting by five continuous codes (Unif(-1, 1)).
+	* SVHN: make use of four 10-dimensional categorical variable and two uniform continuous variables, as the dataset is noisy, containing distracting digits and does not have multiple variations of the same object.
+	* CelebA: use 10 uniform categorical variables, each of dimension 10. \
+⇒ + can continuously interpolate by varying a continuous code with the others fixed. \
+⇒ + show generalizability to unseen latent code. \
+⇒ + can discover salient variation on its own (hair style, presence / absence of eyeglasses, and emotions) \
+⇒ + competitive with representations learned by existing supervised method
 		
 **총평:** 문제와 해결 방식을 아주 매끄럽게 연결시키고 중간에 등장하는 개념도 쉽고 친절하게 설명한 논문. 결과도 인상적이고 분석도 잘 한 것 같아 다른 분들도 읽어보면 좋겠음. 핵심을 다시 정리하자면 unsupervised로 interpretable and disentangled representations을 배우기 위해 latent code와 G사이의 variational mutual information maximization 및 reparameterization trick을 도입한 논문!
