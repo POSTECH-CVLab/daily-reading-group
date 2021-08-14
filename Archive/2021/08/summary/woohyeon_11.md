@@ -28,13 +28,14 @@
 	* This condition works as a guide to choose f and design the class of function T; KL divergence corresponds to f(u) = -log(u) resulting in T*(x)=-q(x)/p(x).
 		
 **Variational Divergence Minimization**
-	* Generative adversarial learning finding saddle point (almost the same as original GAN objective)
-		F(θ,ω) = Ex∼P [Tω(x)] − Ex∼Qθ [f∗(Tω(x))].
-		* Qθ: generator, Tω: discriminator
-	* Reflect the domain of the conjugate function f* by replacing Tω(x) ⇒ gf(Vω(X)).
-		* Vω: X → R; output logits.
-		* gf: activation function specific to f-divergence.
-	* − Ex∼Qθ [f∗(gf(Vω(x)))] ⇒ +Ex∼Qθ [gf(Vω(x))] is more useful in practice as also noted in GAN paper.
+* Generative adversarial learning finding saddle point (almost the same as original GAN objective) \
+F(θ,ω) = Ex∼P [Tω(x)] − Ex∼Qθ [f∗(Tω(x))].
+	* Qθ: generator, Tω: discriminator
+* Reflect the domain of the conjugate function f* by replacing Tω(x) ⇒ gf(Vω(X)).
+	* Vω: X → R; output logits.
+	* gf: activation function specific to f-divergence.
+* − Ex∼Qθ [f∗(gf(Vω(x)))] ⇒ +Ex∼Qθ [gf(Vω(x))] is more useful in practice as also noted in GAN paper.
 		
 **Experiments ⇒** found that divergence functions has strong influence on which model is learned.
+
 **총평:** GAN의 새로운 목적식을 제안하기 보다는 이전에 제안된 방식을 하나로 통합한 논문. 저자는 GAN뿐 아니라 다른 generative model에 대해서도 다방면으로 꿰고 있는 것 같아 인상 깊었음 (from related work). 논문을 보며 현재 연구하는 분야를 대표하는 논문, 즉 generative model에서는 VAE, diffusion probabilistic model와 flow(invertible model) 정도는 알고 있어야 되지 않을까라고 생각함.
