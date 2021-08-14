@@ -14,7 +14,7 @@
 		
 **Variational estimation of f-divergences**
   * **Variational representation of f**
-		f(u) = sup_{t \in dom_{f*}} tu - f*(t). \
+	f(u) = sup_{t \in dom_{f*}} tu - f*(t). \
 	  * f* is a convex conjugate function of f, a.k.a Fenchel conjugate.
 		* f* is dual form of f i.e., f** = f and again convex and lower-semicontinuous.
 	* **Variational lower bound of f -divergence**
