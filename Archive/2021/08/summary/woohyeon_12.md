@@ -48,7 +48,8 @@
 	* MNIST: control digit shape by discrete code and style by two continuous codes (Unif(-1, 1)).
 	* Chair: control azimuth (pose), elevation, and lighting by five continuous codes (Unif(-1, 1)).
 	* SVHN: make use of four 10-dimensional categorical variable and two uniform continuous variables, as the dataset is noisy, containing distracting digits and does not have multiple variations of the same object.
-	* CelebA: use 10 uniform categorical variables, each of dimension 10. \
+	* CelebA: use 10 uniform categorical variables, each of dimension 10.
+
 ⇒ + can continuously interpolate by varying a continuous code with the others fixed. \
 ⇒ + show generalizability to unseen latent code. \
 ⇒ + can discover salient variation on its own (hair style, presence / absence of eyeglasses, and emotions) \
