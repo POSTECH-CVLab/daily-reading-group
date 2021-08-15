@@ -12,7 +12,9 @@
  
 
 **Method** :
-Earth Mover distance (Wasserstein-1) : 두 distribution 간의 distance 를 측정할 때, 기존의 TV distance / KL divergence / JS divergence 의 경우 두 distribution 이 서로 겹치지 않으면 두 distribution 이 가까워 지더라도 항상 고정된 값을 가진다.  논문의 Example 1 에서 간단한 예시를 통해 확인할 수 있다. 특히 학습 초반에는 두 distribution 간 겹치는 부분이 많지 않은 데다 distribution 내 가능한 모든 sample 들을 보는 것이 아닌 batch 로 그 중 일부만 보기 때문에 두 확률 분포가 겹치는 부분 없이 서로 다른 영역에서 측정될 가능성이 높다. 이럴 경우 서로 겹치는 부분이 생기기 전까지 distance 는 수렴하지 않고 고정된 값을 가지게 되며, GAN 에서 이러한 현상은 학습이 되지 않는 중요한 원인이 되기도 한다. 그리하여 두 확률분포의 차이를 덜 strict 하게 계산하여 언제든 useful gradient 를 제공하는 EM distance 를 도입한다. 
+
+
+**Earth Mover distance (Wasserstein-1)** : 두 distribution 간의 distance 를 측정할 때, 기존의 TV distance / KL divergence / JS divergence 의 경우 두 distribution 이 서로 겹치지 않으면 두 distribution 이 가까워 지더라도 항상 고정된 값을 가진다.  논문의 Example 1 에서 간단한 예시를 통해 확인할 수 있다. 특히 학습 초반에는 두 distribution 간 겹치는 부분이 많지 않은 데다 distribution 내 가능한 모든 sample 들을 보는 것이 아닌 batch 로 그 중 일부만 보기 때문에 두 확률 분포가 겹치는 부분 없이 서로 다른 영역에서 측정될 가능성이 높다. 이럴 경우 서로 겹치는 부분이 생기기 전까지 distance 는 수렴하지 않고 고정된 값을 가지게 되며, GAN 에서 이러한 현상은 학습이 되지 않는 중요한 원인이 되기도 한다. 그리하여 두 확률분포의 차이를 덜 strict 하게 계산하여 언제든 useful gradient 를 제공하는 EM distance 를 도입한다. 
 EM distance 는 distribuiton 이 겹치는 정도에 의존해 distance 를 계산하는 기존의 세 방식들과는 달리, 두 distribution 내 sample 들의 거리를 base로 계산한다. 뽑힌 sample 들에 따라 distance 는 다르게 측정될 수 있는데, EM distance 는 그 중 가장 작은 distance 기댓값이며, 해당 기댓값을 가지는 sample 들을 뽑는 joint distribution 을 학습한다.
 
  
