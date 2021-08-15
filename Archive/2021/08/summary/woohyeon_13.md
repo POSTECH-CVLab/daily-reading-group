@@ -18,7 +18,7 @@
 	* feed nearest embeddings z_q as input.
 * **Training losses**
 	* **for encoder and decoder: reconstruction loss of log p(x|z_q(x))** with straight-through estimator, which copies gradients from decoder input z_q to encoder output z_e.
-  * **for look-up table (vector quantization): l2 loss** between the encoder outputs z_e and corresponding dictionary item e_i. (z_e is stop-gradiented)
+  	* **for look-up table (vector quantization): l2 loss** between the encoder outputs z_e and corresponding dictionary item e_i. (z_e is stop-gradiented)
 	* **additional regularizer for encoder (commitment loss not to alter arbitrarily the dictionary item): the same loss of** look-up table learning, but here, e_i is stop-gradiented.
 * **Log likelihood of the complete model**
 	* **log p(x) = log [Sum_k p(x|z_k)p(z_k)],** summations over dictionary items.
