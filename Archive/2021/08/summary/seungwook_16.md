@@ -15,7 +15,7 @@
 
 (시간이 지남에 따라서 업데이트 될 수도 있다고 함)
 
-##1. Before you start to build models
+## 1. Before you start to build models
 #### Do take the time to understand your data
 * 데이터가 reliable source에서 오는 게 / reliable한 method로 만들어진 게 / 좋은 퀄리티인 게 좋음
 * 데이터를 사용하기 전에 위 사항들을 확인하고, 저자들이 데이터의 한계를 서술했는지 확인
@@ -55,7 +55,7 @@
     * 제안되지 않은 분야가 있다면 이를 제안하고, 이에 맞는 첫 아키텍쳐를 보이는 것 자체가 contribution일 수 있음
 * MLOps가 풀고자 하는 부분 중 하나
 
-##2. How to reliably build models
+## 2. How to reliably build models
 #### Don't allow test data to leak into the training process
 * mean/variance를 사용할 때도 train data내에서만 사용할 것
 * (tabular data의 경우) data partitioning 전에 feature selection은 하지 말 것
@@ -90,7 +90,7 @@
     * Hyperparameter optimization & Feature selection as an extra loop inside the main cross-validation
     * training 자체를 시작하게 전에 optimization/feature selection을 하지 말라는 의미
 
-##3. How to robustly evaluate models
+## 3. How to robustly evaluate models
 
 #### Do use an appropriate test set
 * Training set성능은 거의 의미 없다고 봐도 된다
@@ -127,7 +127,7 @@
     * Matthew's Correlation Coefficient
     * 경험적) F1 score
 
-##4.  How to compare models fairly
+## 4.  How to compare models fairly
 #### Don’t assume a bigger number means a better model
 * 다른 data partition에 학습/평가되었을 수도 있음
 * hyperparameter optimization시도의 차이가 있을 수 있음
@@ -160,7 +160,7 @@
 * 서로 다른 모델을 (같은/닫른 아키텍쳐) 사용함으로서 (ensemble) 서로의 단점을 커버해줄 수 있음
     * (알긴 하지만 논문 쓸 때도 그래도 되나?)
 
-##5.  How to report your results
+## 5.  How to report your results
 전반적으로 what worked & What didn't 가 포함되어 있는 게 좋음 \
 ML은 주로 trade-off가 엮여있기 때문에 (한 모델이 다른 모델보다 "모든 면"에서 잘나기는 어려움) 그런 부분도 잘 서술해야함
 
