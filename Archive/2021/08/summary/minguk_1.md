@@ -1,5 +1,10 @@
-Unsupervised Learning of Probably Symmetric Deformable 3D objects from Images in the Wild (best paper). 
+# Unsupervised Learning of Probably Symmetric Deformable 3D objects from Images in the Wild. 
  
+## Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi - CVPR 2020 (best paper)
+
+#### Summarized by Minguk Kang
+---
+
 **Task**: learning 3D deformable object categories from raw single-view images.
  
 **Motivation**: While many deep networks appear to understand images as 2D textures, 3D modelling can explain away much of the variability of natural images and potentially improve image understanding in general. 
