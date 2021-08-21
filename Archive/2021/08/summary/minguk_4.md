@@ -1,5 +1,5 @@
 # Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
-## Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin - Neruips 2020
+### Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin - Neruips 2020
 #### Summarized by Minguk Kang
 ---
 
