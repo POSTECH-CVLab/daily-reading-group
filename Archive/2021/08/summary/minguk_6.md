@@ -1,5 +1,8 @@
-Diffusion Models beat GANs on Image Synthesis
- 
+# Diffusion Models beat GANs on Image Synthesis
+### Prafulla Dhariwal, Alex Nichol - Neurips 2021 (submitted)
+#### Summarized by Minguk Kang
+----
+
 **Task**: 디퓨전 모델이 적대적 생성 신경망에 비해 이미지 생성 성능이 떨어지는 이유를 규명
  
 **Motivation**: DDPM, DDIM과 같은 디퓨전 모델이 CIFAR10 데이터세트에서는 GAN의 생성 성능을 이겼는데, LSUN, ImageNet과 같은 large-scale 데이터셋의 생성 실험에서는 좋은 결과를 보여주지 못 했습니다. 본 논문의 저자들은 이는 (1) GAN의 architecture가 수년동안 엄청나게 가다듬어 졌다는 점과 (2) Conditional GANs과 같이 class label을 사용하여 이미지 생성을 보조하는 방법이 Diffusion model에는 없다는 것을 지적하고, 이에 대한 조사를 통해 large-scale image generation에서 성공적인 이미지 생성 결과를 보여주고 있습니다.
