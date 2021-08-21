@@ -1,5 +1,5 @@
 # Emerging Properties in Self-Supervised Vision Transformers
-### Author information
+### Mathilde Caron, Hugo Touvron, Ishan Misra, Hervé Jégou, Julien Mairal, Piotr Bojanowski, Armand Joulin - arXiv 2021
 #### Summarized by Minguk Kang
 ---
 
