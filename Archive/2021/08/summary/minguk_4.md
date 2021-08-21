@@ -1,4 +1,7 @@
-Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+# Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+## Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin - Neruips 2020
+#### Summarized by Minguk Kang
+---
 
 **Overview**: SwAV는 CPC, CMC, MoCo, SimCLR, SimCLR2, MoCO2, BYOL, SwAV, SimSiam으로 가는 Self-supervised learning 족보에서 거의 마지막을 담당하고 있으며 기존의 contrastive instance discrimination (data-to-data relationships을 explicit하게 본다)과는 다르게 prototype이라는 것을 도입하여 data-to-prototype 관계를 학습하여 representation learning을 하는 모델입니다.  ImageNet linear evaluation Top-1 결과는 75.3%로 BYOL (74.3) 보다 살짝 높다는 특징을 가지고 있습니다. 
 
