@@ -1,5 +1,5 @@
 # Omni-GAN: On the Secrets of cGANs and Beyond
-### Author Information 
+### Peng Zhou, Lingxi Xie, Bingbing Ni, Cong Geng, Qi Tian - arXiv 2020
 #### Summarized by Minguk Kang
 ---
 
