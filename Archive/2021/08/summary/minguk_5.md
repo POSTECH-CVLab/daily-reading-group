@@ -1,5 +1,8 @@
-Denoising Diffusion Probabilistic Models
- 
+# Denoising Diffusion Probabilistic Models
+### Jonathan Ho, Ajay Jain, Pieter Abbeel - Neurips 2020
+#### Summarized by Minguk Kang
+---
+
 **Task**: Image generation using a new probabilistic model
  
 **Motivation**: Generative Adversarial Networks have two shortcomings: (1) training GANs is extremely hard and (2) generated images are not diverse. So, the authors of this paper propose a new sort of generative model named denoising diffusion probabilistic model (DDPM) whose theoretical ground stems from diffusion and denoising processes of non-equilibrium thermodynamics.
