@@ -22,7 +22,7 @@
 
 **2) node update** : 이전 step 의 hidden state, 계산된 현재의 node message, input feature vector 이 세 vector 를 concat 하여 node function g 에 통과시킨다. 
 
- 
+ ** edit : 정리하자면, 서로 direct relation 이 있는 것끼리 연결시킨 graph 형태로 각 object 의 relation feature 를 계산했다는 점과, 이를 recurrent 하게 계산하여 multi-step reasoning 을 학습했다는 것이 핵심이다.
 
 **Experiment** : 
 sudoku , bAbI, Pretty-CLEVER 데이터셋에 대해 성능을 측정하였으며, 당시 bAbI dataset 에서 모든 task 를 풀고 SOTA 를 달성하였다. 또, hardest sudoku puzzle 에서 타 comparable method 와 비교해 sota 를 달성하였다. (solved 96.6% puzzle)
