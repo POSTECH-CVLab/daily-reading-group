@@ -25,6 +25,6 @@
 
 - **Duplicate Removal stage** : instance Recognition 단계의 마지막 relation module에서 생성된 final feature 와 classification score 를 이용해 appearance feature 를 생성하고, bbox geometric feature 와 함께 relation module 을 통과시켜 final transformed feature 로 linear classifier 를 거친 binary classification probability 를 생성한다. 이 classification probability 는 correct / duplicate 인지 나누는 probability 로, 이 probability 와 Instance Recogniton stage 에서 생성된 classification score 를 곱하여 final classificatio score 을 생성한다. ground truth box 와 threshold 이상의 IoU 를 가지는 detection box 중 가장 hightest score 를 가지는 candidate 를 correct 로 한다. ground truth bbox 가 없는 inference time 에는 score threshold 를 기준으로 컷하는 것 같다.
 
-=> relation module 이전, score 와 feature 를 합칠 때 classification score 를 high dimension 으로 embedding 하기 전에 candidate 끼리 score rank 를 매긴 값을 사용하면 좀 더 좋은 성능을 보였다고 한다. (score 값이 큰 차이 없이 비슷한 값을 가지는 경우를 제외하고는 오히려 detail information 을 잃어버려 좋지 않을 것 같은데.. 의문이다)
+=> Duplicate Removal stage 에서 relation module 이전, score 와 feature 를 합칠 때 classification score 를 high dimension 으로 embedding 하기 전에 candidate 끼리 score rank 를 매긴 값을 사용하면 좀 더 좋은 성능을 보였다고 한다. (score 값이 큰 차이 없이 비슷한 값을 가지는 경우를 제외하고는 오히려 detail information 을 잃어버려 좋지 않을 것 같은데.. 의문이다)
 
 **총평** : relation reasoning 논문들의 citation 을 타고 건너 들어가다가 읽게 된 논문이라 잘은 모르지만 first fully end-to-end object detector 를 보였다고 하니 상당히 중요한 논문인 것 같다.(이론적으로는 end-to-end 가 가능한 이전 논문들이 있긴 했지만 이들은 experimental evidence 를 보이지 않았다고 한다) attention 을 이용한 relation module 을 detection 모델에 적용한 방식이 재미있었다(필자가 detection 논문을 거의 보지 않아서 재밌었던 것일지도..).
