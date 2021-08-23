@@ -11,8 +11,8 @@
 **Approximate marginal likelihood**
 * log pθ(x(1), · · · , x(N)) = Sum1~N log pθ(x(i)) s.t. θ: param. of dec.
 * log pθ(x(i)) = DKL(qφ(z|x(i)) || pθ(z|x(i))) + L(θ, φ; x(i)) s.t. φ: param. of enc.
-* log pθ(x(i)) ≥ L(θ, φ; x(i)) = Eqφ(z|x) [− log qφ(z|x) + log pθ(x, z)]
-	= −DKL(qφ(z|x) || pθ(z)) + Eqφ(z|x(i)) log pθ(x|z) **← variational lower-bound** \
+* log pθ(x(i)) ≥ L(θ, φ; x(i)) = Eqφ(z|x) [− log qφ(z|x) + log pθ(x, z)] \
+= −DKL(qφ(z|x) || pθ(z)) + Eqφ(z|x(i)) log pθ(x|z) **← variational lower-bound** 
 	* The KL-divergence DKL(qφ(z|x(i))||pθ(z)) can be integrated analytically.
 	* The KL-divergence term can be interpreted as regularizing φ, encouraging the approximate posterior to be close to the prior pθ(z).
 	* The second term Eqφ(z|x(i)) logpθ(x(i)|z) is an expected negative reconstruction error.
