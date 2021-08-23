@@ -1,5 +1,5 @@
 # Deep clustering for unsupervised learning of visual features (DeepCluster)
-### Danilo Jimenez Rezende, Shakir Mohamed. Google DeepMind. - ICML 2015 
+### Mathilde Caron, Piotr Bojanowski, Armand Joulin, Matthijs Douze - ECCV 2018 
 #### Summarized by Jiye Kim
 
 ---
