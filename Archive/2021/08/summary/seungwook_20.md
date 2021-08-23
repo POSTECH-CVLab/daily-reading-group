@@ -1,5 +1,5 @@
 # Relational Embedding for Few-shot Classification
-### Dahyung Kang et al., POSTECH - ICCV 2021
+### Dahyun Kang et al., POSTECH - ICCV 2021
 #### Summarized by Seungwook Kim
 ---
 
