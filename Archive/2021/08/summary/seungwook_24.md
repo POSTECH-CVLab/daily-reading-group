@@ -9,6 +9,7 @@
 * 또한 실험적인 결과와 결론을 사용하고, 그 뒤에 "왜?"인지에 대한 이론적 배경 서술은 부족하기 때문에 크게 novelty가 있다고 느껴지지 않음
 * 다만 해당 논문을 통해 밝혀진 empirical한 결과들을 설명하기 위한 theoretical 내용을 새로운 novelty로 내세운 논문이 나올 수 있을 것 같음.
 * Visual Transformer에 대한 이해가 아직 많이 부족한 시점이라고 생각됨.  
+* CLS token을 사용하지 않는 경우의 visual transformer에 대해서는 해당이 안 되는 사항이 많음.
 ---
 
 
