@@ -1,0 +1,62 @@
+# Group Equivariant Convolutional Networks
+### Taco S. Cohen and Max Welling, University of Amsterdam - ICML 2016
+### Summarized by Woohyeon Shim
+
+- **총평:** 제한된 symmetry group내에서 equivariance를 만족하는 네트워크를 제안한 논문. 필요한 개념(symmetry group, equivariance)을 하나씩 친절하게 설명해주며 그 정의에 따라 직관적으로 네트워크를 설계하였음. group의 크기에 따라 parameter가 quadratic하게 증가하는 것은 문제가 있어보이고 continuous group의 개념으로 해결할 방법을 찾는 것이 필요해보임. MNIST와 CIFAR10에서 효과적임을 보였는데 큰 데이터셋에는 얼마나 효과적인지는 보고 싶음. equivariant network로 효과를 보인 첫 논문으로 알고 있는데 논문이 아주 잘 쓰였고 소개를 잘 해주어 이쪽 분야를 한다면 꼭 읽어보면 좋을 것 같음.
+- **Task:** making CNN generalizable to exploit large symmetry groups using equivariance.
+- **Goal:** increases the expressive capacity of a network without increasing the number of parameters.
+- **Intuition on generalization of convolution**
+    - Convolution preserves translation symmetry in each layer and achieves translation equivariance by weight sharing and increasing depth.
+    - Can it be generalized to more general transformation (rotation and reflection) with a substantially higher degree of weight sharing than regular convolution layers?
+- **What is symmetry groups?**
+    - Symmetry is a transformation that leaves the target object invariant.
+    - Symmetry group is a set of transformations that has following properties: composition (gh) of two symmetry transformations and inverse (g^-1) of any symmetry are also symmetries.
+    - **Example 1: group p4**
+        - consists of all compositions of translations and rotations by 90 degrees about any center of rotation in a square grid.
+        - can parameterize with three integers $0\leq r <4$ and $(u,v)\in Z^2$ in matrix form.
+        - the composition and inversion operation can be represented directly in terms of integers (r, u, v) ⇒ these can be obtained by multiplying matrices of each component and converting it back to a tuple of integers (using the atan2 function to obtain r).
+    - **Example 2: group p4m**
+        - consists of all compositions of translations, mirror reflections, and rotations by 90 degrees about any center of rotation in the grid.
+        - can parameterize with integers $m\in\{0,1\}$, $0\leq r <4$ and $(u,v)\in Z^2$.
+        - As p4, this is indeed a group. From a given matrix g, m is 0.5*(1 - det(g)).
+- **Functions on Groups**
+    - concerned with transformation g acting on a set of feature maps f
+        - $[L_gf](x)=[f\circ g^-1](x)=f(g^-1x)$
+        - analogous to inverse warping, L_g takes original value of feature map at the point g^-1x.
+    - note that feature maps f itself are functions on the group G in group-equivariant CNN (G-CNN).
+        - for functions on G, the definition of L_g is still valid if we simply replace x (an element of Z^2) by h (an element of G), and interpret g^-1h as composition.
+- **What is equivariance?**
+    - Φ(T_g * x) = T_g′ * Φ(x)
+    - T and T' need not be the same.
+        - the concept of invariance is a special kind of equivariance where Tg' is the identity transformation for all g.
+        - but, the invariance is less useful than general equivariance since it is impossible to determine if features are in the right spatial configuration if they are invariant.
+        - equivariance improves statistical efficiency and facilitates geometrical reasoning that can aid generalization.
+- **Equivariance properties of CNN**
+    - **Convolutions are equivariant to translation group**
+        - $[[L_tf]*\psi](x)=\sum_y f(y-t)\psi(y-x)=\sum_yf(y)\psi(y-(x-t))=[[L_t[f*\psi]](x).$
+    - B**ut not equivariant to other isometries of the sampling lattice.**
+        - rotating the image and then convolving with a fixed filter is not the same as first convolving and then rotating the result.
+        - Convolution only satisfies: $[[L_rf]*\psi](x)=L_r[f*[L_{r^-1}\psi]](x)$
+        - Hence, if an ordinary CNN learns rotated copies of the same filter, the stack of feature map is equivariant, although individual feature maps are not.
+- **Group equivariant Networks**
+    - need to define the three layers (G-convolution, G-pooling, nonlinearity) for G-CNN.
+    - **G-convolution**
+        - replace shifting operation for a filter to a more general transformation from some group G
+            - first layer operates on the plane Z^2: $[f*\psi](g)=\sum_{y\in Z^2}f(y)\psi(g^{-1}y)$
+            - after the first layer on the discrete group G: $[f*\psi](g)=\sum_{h\in G}f(h)\psi(g^{-1}h)$
+        - admits only one bias per G-feature map and it is the same for batch normalization, admits a single scale and bias parameter per G-feature map in order to preserve equivariance.
+        - can use skip-connection as the sum of two G-equivariant feature maps is also G-equivariant.
+        - equivariance can be derived for the operation in G:
+            - $[[L_uf]*\psi](g)=\sum_{h\in G}f(u^{-1}h)\psi(g^{-1}h)=\sum_{h\in G}f(h)\psi(g^{-1}uh)=\sum_{h\in G}f(h)\psi((u^{-1}g)^{-1}h)=[L_u[f*\psi]](g)$
+    - **G-pooling**
+        - can be represented by subsampling on a subgroup H \in G (i.e., closed under multiplication and inverse).
+        - in standard convnet, pooling with stride 2 is the same as subsampling on H = {(2i, 2j) |(i, j) ∈ Z^2} which is a subgroup of G=Z^2.
+        - for the p4-CNN, we may subsample on the subgroup H containing all 4 rota- tions, as well as shifts by multiples of 2 pixels.
+    - **Nonlinearity:** can be proved the result of post-composition of activation function is the same with that of pre-composition, meaning that it can inherits the transformation properties of the previous layer.
+- **Implementation**
+    - Computing the G-convolution involves nothing more than indexing arithmetic and inner product, thus straightforward to implement.
+    - Filters have the shape of K^{l} x S^{l} x K^{l-1} x S^{l-1} x n x n; S denotes the number of transformation in G  (e.g. 1, 4, or 8 for Z^2, p4 or p4m filters, respectively), and n is the spatial extent of the filter.
+    - Filters can be applied by reshaping with K^{l}S^{l} x K^{l-1}S^{l-1} x n x n, so that the resulting array can be interpreted as a conventional filter bank with S^{l−1}K^{l−1} planar input channels and S^{l}K^{l} planar output channels.
+- **Experiments**
+    - halves the error-rate of previous SoTA on rotated MNIST dataset.
+    - achieves SoTA on CIFAR10 with fewer parameters.
