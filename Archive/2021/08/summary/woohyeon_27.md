@@ -1,0 +1,76 @@
+# Steerable CNNs
+### Taco S. Cohen and Max Welling, University of Amsterdam - ICLR 2017
+### Summarized by Woohyeon Shim
+
+- **Task:** improving the statistical efficiency of deep learning with steerable representation
+- **총평:** group-equivariant CNN의 후속 논문. 해당 논문에서는 작은 symmetry group에 대해서만 equivariance를 보였지만 본 논문은 type system, 곧 group의 basis (feature type)를 구하고 linear weight의 sum으로 transformation을 표현하여 큰 symmetry group에도 적용할 수 있는 scalable한 방법을 제안함. 또한 local feature의 relative pose를 보존해나가는 capsule을 통해 표현력을 한층 더 끌어올림. CIFAR10과 100에서 실험했는데 few-shot과 full-shot에서 아주 효과적임을 보임. 논문은 어렵긴 하나 글 자체는 잘 쓰였음. group-equivariant CNN & CapsuleNet을 읽고 보는 것을 추천함.
+- **Steerability ?**
+    - Given Φ : F → F ′ a convolutional network, **the feature space F′ is said to be (linearly) steerable** **with respect to G,** if for all transformations g ∈ G, the features Φf and Φπ(g)f **are related by a linear transformation π′(g)** that does not depend on f., i.e. **Φπ(g) = π′(g)Φ.**
+    - **π′(g)** allows us to “steer” the features in F′ ****without referring to the input in F.
+    - With the steerability constraint and the fact that π is a group representation, we find that **π′ must also be a group representation.** That is, π′(gh) = π′(g)π′(h).
+- **Target Transformation groups**
+    - Z2: group of translations
+    - H = D4: transformations that fixes the origin 0 ∈ Z  - the 8-element group of reflections and rotations about the origin.
+    - G= p4m: translations, rotations by 90 degrees around any point, and reflections.
+- **Filter bank that generate H-steerable features.**
+    - Filter bank can be described as **an array of dimension: (K', K, s, s)**
+        - It is useful to think of a filter bank as **a linear map Ψ : F → R^K′** that takes as input a signal f ∈ F and produces a K′-dimensional feature vector. One can represent Ψ as the matrix **having shape K' × (K · s^2).**
+    - **Filter bank needs to be H-equivariant** to make the output of the convolution steerable.
+        - ρ(h)Ψ = Ψπ(h)  ⇒ the outputs are H-steerable by ρ when the input space F is H-steerable by π.
+        - **Equivariant map** of π and ρ is also sometimes called **intertwiner of π and ρ.**
+        - **The space of maps** satisfying the equivariance constraint is **denoted Hom_H(π,ρ)**, because an equivariant map Ψ is a “homomorphism of group representations”.
+        - This space of admissible filter banks is **a vector space** as the constraint ρ(h)Ψ = Ψπ(h) is linear in Ψ:  any linear combination of maps Ψ, Ψ′ ∈ Hom_H (π, ρ) is again an intertwiner.
+    - **Given π and ρ**, we can **compute a basis for Hom_H (π, ρ)** by solving a linear system.
+        - Computation of the intertwiner basis is **done in offline**, before training.
+        - Once we have such a basis ψ1, . . . , ψn for Hom_H (π, ρ), we can express any **equivariant filter bank Ψ as a linear combination Ψ = Sum_i α_i*ψ_i** using parameters αi. This can be done efficiently even in high dimensions.
+- **Induction of G-steerability from H-steerability**
+    - **Convolution: [Ψ*f](x) = Ψπ(x^{−1})f,** where x ∈ Z2 is interpreted as a translation.
+    - **Transformation law induced by ρ** with a translation t and transformation r \in H: with a some algebra, we find **[Ψ * [π(tr)f]](x) = ρ(r)[[Ψ * f] ((tr)^{−1} x)]**
+    - If we define **[π'(tr)f](x) = ρ(r)[f((tr)^{-1} x)]**, then **Ψ * π(g)f = π'(g)Ψ * f.**
+        - **The representation π′** is known as **the representation of G induced by the representation ρ of H,** and is denoted **π′ = Ind^G_H ρ.**
+        - It is important to keep in mind that (as indicated by the square brackets) **π′ acts on the whole feature space F′ while ρ acts on individual fibers.**
+    - If we compare **the induced representation π′ with [π0(g)f] (x) = f(g−1x) [acting on image space]**, the **difference lies only in the presence of a factor ρ(r) applied to the fiber**s.
+        - This factor describes how the feature channels are mixed by the transformation.
+        - The color channels in the input space do not get mixed by geometrical transformations, so we say that π0 is induced from the trivial representation ρ0(h) = I.
+    - To have a G-steerable feature space F′, we can iterate the procedure by computing a basis for the space of intertwiners between π′ (restricted to H) and some ρ′ of our choosing.
+- **Feature types for Hom_H (π, ρ)**
+    - We first compute t**he bases of H (φi_k(g))**, which called as an **elementary representation, irreducible representation** (or **irreps**), and **building block of matrices.**
+    - Given the irreducible representations of H as φi, **any representation ρ of H can be written in block-diagonal form.**
+        - ρ(g) = A [φi_1(g) // φi_2(g) // φi_n(g)] A^{-1}
+        - The fiber representation ρ is determined by multiplicities mi_k ≥ 0 and a basis matrix A.
+    - **Choice of multiplicity is analogous to the choice of the number of channels i**n an ordinary CNN ⇒ K (# of channel) = Sum_i mi_k dim φi_k.
+    - Choice of A is done by capsule representation (?) ⇒ 정확히 설명이 안되있음.
+- **Determine the type of π = Ind^G_H ρ**
+    - **This procedure relies on the character χρ(g) = Tr(ρ(g))** with following properties.
+        - Every representation ρ is a direct sum of irreps.
+        - The trace of a direct sum equals the sum of the traces (i.e. χρ⊕ρ′ = χρ + χρ′)
+        - We can obtain the multiplicity of irrep φi in ρ by computing the inner product with the i-th character.
+
+            ⟨χρ,χ_φi⟩ = ⟨χ_⊕j mj*φj, χφi⟩ = <Sum_j mj*χφj ,χφi > = Sum_j mj * ⟨χφj ,χφi⟩ = mi
+
+        - The characters of irreps φi , φj are orthogonal.
+    - Thus, **simple dot product of characters is all we need to determine the type of a representation.**
+- **Parameter Cost**
+    - The number of parameters is determined by the feature types of the input and output space. In fact, **the number is equal to dimension of the vector space Hom_H(π,ρ) and known as the intertwining number of π and ρ.**
+    - As with multiplicities, **the intertwining number is easily computed using character**s
+        - **dim_HomH(π,ρ) = ⟨χπ,χρ⟩.**
+        - By linearity and the orthogonality of characters, we find that dim Hom_H (π, ρ) = **Sum_i mi*m′i, for representations π, ρ of type (m1, . . . , mJ ) and (m′1, . . . , m′J ), respectively.**
+    - If we **calculate dim π · dim ρ / dim HomH(π, ρ)**, we can know **how the network utilizes the parameters more intensively than an ordinary convolution layer** and the typical value is around |H|, e.g. 8 for H = D4.
+- **Equivariant Non-linearity & Capsules**
+    - An **equivalent representation ρ′(g) = Aρ(g)A−1** will have the same type, and hence the same parameter cost as ρ. However, when it comes to nonlinearities, different bases behave differently.
+    - **A layer of nonlinearities must commute with the group action**. It is admissible if there exists an output representation ρ′ such that ν applied after ρ equals ρ′ applied after ν.
+        - any nonlinearity is admissible for ρ when the latter is realized by permutation matrices: permuting a list of coordinates and then applying a nonlinearity is the same as applying the nonlinearity and then permuting.
+        - any scale-free nonlinearity such as CReLU = (ReLU(α), ReLU(−α)) is admissible for a representation realized by monomial matrices (having the same nonzero pattern as a permutation matrix).
+        - **for many groups, the irreps can be realized using signed permutation matrices**, so we can nonlinearities such as **CReLU.**
+    - **Since commutation with nonlinearities** **depends on the basis**, we need a more granular notion than the feature type.
+        - We define **a ρ-capsule as a (typically low-dimensional) feature vector** that transforms according to a representation ρ (we may also refer to ρ as the capsule).
+        - Given **a catalogue of capsules ρi (for i = 1, . . . , C) with multiplicities mi**, we can **construct a fiber as a stack of capsules** that is steerable by a block-diagonal representation ρ with mi copies of ρi on the diagonal.
+        - The capsules encode the pose of a pattern in the input, and consist of **a number of units (dimensions) that do not get mixed with the units of other capsules** under transformations. In this sense, **a stack of capsules is disentangled.**
+- **Experiments**
+    - **Find the best combination of capsules in small-data regime.**
+        - a single type of capsule do not perform very well
+        - created networks that use a mix of the more successful kinds of capsules.
+            - the input and output layer of a residual block consists of quotient capsules: regular, qm, qmr2, qmr3  followed by ReLUs.
+            - the intermediate layer consists of irreducible capsules: A1, A2, B1, B2, E(2x) followed by CReLUs.
+        - the result is close to the state of the art in semi-supervised methods.
+    - **Substantially outperforms the ResNet when using full-dataset.**
