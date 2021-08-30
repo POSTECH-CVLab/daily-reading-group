@@ -20,7 +20,7 @@
 
  
 
-**Experiment: **
+**Experiment:**
 1) MLP head 를 추가하는 것은 기존 MoCo baseline 에 비해 ImageNet accuracy 에서 큰 성능 향상을 보였다. (가장 effective 한 것으로 보임)
 
 2) 특이한 점은, VOC detection task 로 transfer  하여 측정했을 때는 MLP head 를 추가하는 것 보다 augmentation 을 추가하는 것이 더 좋은 성능 향상을 보였다. (linear classification accuracy is not monotonically related to transfer performance in detection)
