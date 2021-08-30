@@ -27,7 +27,9 @@
  
 
 queue 에 이전 batch 들의 key (encoded feature of augmented image) 를 저장하여 이들로부터 현재 batch 의 nagative pair 를 sampling 하는 방법을 통해 두 가지 이점을 얻는다. 
+
 **1)** 보다 방대한 다양성을 가진 negative pair 사용 가능. dictionary size larger than typical mini-batch size
+
 **2)** 이전 mini-batch 들의 encoded key 들을 재활용함으로서 현재 batch 에서 새로 negative pair encoding 을 하지 않아도 되는 이점이 있음
 
  
