@@ -50,6 +50,8 @@
 * Relational recurrent neural networks ([수현](./summary/suhyeon_13.md))
 * A simple neural network module for relational reasoning ([수현](./summary/suhyeon_17.md))
 * Relation Networks for Object Detection ([수현](./summary/suhyeon_18.md))
+* MLP-Mixer: An all-MLP Architecture for Vision ([수현](./summary/suhyeon_25.md))
+* A Unified Objective for Novel Class Discovery ([수현](./summary/suhyeon_26.md))
 * NeRD: Neural 3D Reflection Symmetry Detector ([우현](./summary/woohyeon_2.md))
 * Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations ([우현](./summary/woohyeon_3.md))
 * StarGAN v2: Diverse Image Synthesis for Multiple Domains ([우현](./summary/woohyeon_4.md))
