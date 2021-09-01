@@ -79,3 +79,11 @@
 * Group Equivariant Convolutional Networks ([우현](./summary/woohyeon_26.md))
 * Steerable CNNs ([우현](./summary/woohyeon_27.md))
 * Putting NeRF on a Diet: Semantically Consistent Few-Shot View Synthesis ([윤우](./summary/yoonwoo_3.md))
+* Variational Inference with Normalizing flows ([지예](./summary/jiye_1.md))
+* E(n) equivariant normalizing flow ([지예](./summary/jiye_2.md))
+* Deep clustering for unsupervised learning of visual features (DeepCluster) ([지예](./summary/jiye_3.md))
+* Guiding Deep Molecular Optimization with Genetic Exploration ([지예](./summary/jiye_4.md))
+* Augmenting Genetic algorithms with deep neural networks for exploring the chemical space ([지예](./summary/jiye_5.md))
+* Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (SWaV) ([지예](./summary/jiye_6.md))
+* Strategies for pre-training graph neural networks ([지예](./summary/jiye_7.md))
+
