@@ -1,6 +1,6 @@
 # cGANs with projection discriminator
 ### Takeru Miyato and Masanori Koyoma
-####Summarized by Minguk Kang
+#### Summarized by Minguk Kang
 ---
 총평: 
 	
