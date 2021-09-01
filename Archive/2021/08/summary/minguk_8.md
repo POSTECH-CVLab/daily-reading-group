@@ -4,11 +4,11 @@
 ---
 총평: 
 	
-Conditional Image Generation 분야에서 널리 쓰이고 있는 방법으로, BigGAN과 StyleGAN (약간 수정된 방식으로)이 해당 방법을 차용하고 있음. 
+1. Conditional Image Generation 분야에서 널리 쓰이고 있는 방법으로, BigGAN과 StyleGAN (약간 수정된 방식으로)이 해당 방법을 차용하고 있음. 
 
-기존 Classifier-based GAN의 early training collapse (논문 5 page 5.1)와 unstable training 문제에서 비교적으로 자유로운 새로운 프레임워크인 projection discriminator를 제안한 breakthrough 논문이라고 생각함.
+2. 기존 Classifier-based GAN의 early training collapse (논문 5 page 5.1)와 unstable training 문제에서 비교적으로 자유로운 새로운 프레임워크인 projection discriminator를 제안한 breakthrough 논문이라고 생각함.
 	
-몇가지 가정과 수식전개가 정확하지는 않지만, Conditional GAN을 하는 사람은 반드시 정독해야하는 논문이라고 생각함.
+3. 몇가지 가정과 수식전개가 정확하지는 않지만, Conditional GAN을 하는 사람은 반드시 정독해야하는 논문이라고 생각함.
 
 Task: Conditional Image Generation using GAN
  
@@ -20,6 +20,6 @@ Method: 해당 논문은 Ian Goodfellow의 GAN 논문에서 소개된 p(x), q(x)
  
 한계:
 	
-논지 전개 시작을 vanilla gan loss에서 유도되는 likelihood ratio에서 시작하는데, 정작 학습은 hinge loss에서 수행하였기에 이론과 실제 구현이 전혀 맞지 않음
+1. 논지 전개 시작을 vanilla gan loss에서 유도되는 likelihood ratio에서 시작하는데, 정작 학습은 hinge loss에서 수행하였기에 이론과 실제 구현이 전혀 맞지 않음
 	
-또한, partition function이 class와는 관계없는 함수라고 생각해서 marginal likelihood 텀과 합치는데, partition function을 계산하기 위해서는 각 class embedding에 대한 정보가 필요하고 이는 특히 주어진 이미지의 corresponding label과 커플링 되어있으므로 이론적으로 해당 부분을 좀 더 보완할 필요가 있어보인다. 
+2. 또한, partition function이 class와는 관계없는 함수라고 생각해서 marginal likelihood 텀과 합치는데, partition function을 계산하기 위해서는 각 class embedding에 대한 정보가 필요하고 이는 특히 주어진 이미지의 corresponding label과 커플링 되어있으므로 이론적으로 해당 부분을 좀 더 보완할 필요가 있어보인다. 
