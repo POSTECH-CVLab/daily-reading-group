@@ -1,6 +1,7 @@
 # CircleGAN: Generative Adversarial Learning across Spherical Circles
 ### Woohyeon Shim and Minsu Cho, POSTECH, Neurips 2020
 #### Summarized by Minguk
+---
  
 총평:
 
