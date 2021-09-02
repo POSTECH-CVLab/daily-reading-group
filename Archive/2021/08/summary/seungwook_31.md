@@ -7,6 +7,7 @@
 * Attention 개념을 matching / stylization에 적용한 논문이다. Neighbourhood consensus를 사용하는 최근 흐름과는 꽤나 다른 양상을 보이며, Descriptor 자체를 image pair에 condition하기 위해 transformer를 사용한다. Co-attention module이기는 하지만 transformer처럼 encoder/decoder 형태거나, Q,K,V 등을 사용하지는 않는다.
 * Main idea가 매우 간단하며, full-sup과 self-sup에서 둘 다 사용될 수 있음을 보인다.
 * 여러 task (Image matching, 3D recon...)에 대해 evaluation을 진행하는데, 왜 특정 dataset은 제외되었는지, 왜 특정 baseline과는 비교되지 않았는지에 대한 의문이 있다. 특히 SuperGlue와는 비교하지 않는 논문들이 꽤나 많던데, 왜인지 잘 모르겠다.
+* Test-time의 이미지 크기가 
 * 무난한 논문.
 
 
