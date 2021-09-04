@@ -23,6 +23,6 @@ Generator의 discriminator output score를 구한다.
 	
 torch.topk 함수를 통해 Generator가 생성한 이미지 중 on-manifold에 있는 top-k를 골라 gradient descent를 수행한다.
 	
-이 때, 학습 초반에는 k=num_batch_size로 모든 샘플을 다 학습에 사용하고, 학습 중후반에는 gamma=0.75~0.999사이의 값으로 k값을 scaling해주어 gradient update를 한다. 또한, k 값의 하한은 배치 크기의 50~75%사이의 값으로 한다.
+이 때, 학습 초반에는 k=num_batch_size로 모든 샘플을 다 학습에 사용하고, 학습 중후반에는 \gamma=0.75-0.999사이의 값으로 k값을 scaling해주어 gradient update를 한다. 또한, k 값의 하한은 배치 크기의 50~75%사이의 값으로 한다.
 
 Experiments: Mixture of gaussian 실험을 통해 Top-k training이 GAN 생성 성능에 미치는 영향을 조사했고, Bottom-(B-K) 실험은 통해 off-manifold data가 generator update를 off-manifold 방향으로 하도록 방해한다는 것을 실험적으로 보였다. 또한, CIFAR10, ImageNet conditional Image Generation 실험을 통해 Top-k training이 실제 GAN 학습에도 적용되어 성공적인 분포학습을 할 수 있음을 보였다.
