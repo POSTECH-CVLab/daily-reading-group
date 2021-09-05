@@ -1,0 +1,42 @@
+# Recurrent Parameter Generators
+### Jiayun Wang et al., UC Berkeley - submitted NeurIPS 2021 
+### Summarized by Woohyeon Shim
+
+- **Task:** building an arbitrarily complex neural network with a single set of parameters to achieve similar performance compared to other traditional CNN models.
+- **총평:** Yann Lecun이 참여한 논문. 논문 그림이 뭔가 대단해보여 읽어보았음. 레이어 하나(적은 파라미터)로 전체 레이어를 관장할 수 있도록 한 것이 핵심임. 방법은 참신하지만 결과적으로는 model compression과 quantization 등과 비교했을 때 같은 성능대비 파라미터는 크게 줄이지 못함. 글도 앞쪽은 탄탄하게 관련 연구와 비교 정리가 잘 되어있지만 실험쪽이 제안한 모듈에 대한 효과 등 분석이 부실함. 이쪽의 전망은 엄말한 이론적 기반으로 나온게 아니고 random성을 기반해서 구축된 것이라 어떻게 발전될지는 예측이 어렵다고 봄. 하지만 CNN을 보는 새로운 시각을 줄 것이기 때문에 한번쯤 재미로 읽어볼 수 있는 논문.
+- **Recurrent** **Parameter Generater (RPG)**
+    - Try to generate a set of parameters of convolution layers with a single set of parameters W ∈ RN and a fixed predefined generating matrix {Ri}.
+        - Suppose K1 , K2 , . . . , KL be the L convolutional kernels.
+        - Initialize the kernels with Ki =Ri ·W, i ∈ {1, ... ,L}
+        - Since the model performance is sensitive to the batch normalization, their parameters are kept unchanged. (the parameter size is relatively negligible against the whole network).
+    - We denote {Ri} and W as RPG.
+- **Creating generating matrices {Ri} (a.k.a destructive weight sharing)**
+    - Consider the same shape of convolutional kernels (d_in=d_out): Ri are square matrix
+    - Further we choose Ri to be a block-diagonal matrix Ri = block-diag{Ai, Ai, ..., Ai}
+        - Ai ∈ O(d*k^2) is an orthogonal matrix that rotates each filter from the kernel Ki.
+        - Construct a subset of the orthogonal group O(M) with permutation p ∈ P(M) and element-wise random sign reflection b ∈ B(M), i.e. we choose Ai ∈ {b ◦ p | b ∈ B(M), p ∈ P(M )}.
+    - To generalize the usage of R_i beyond the block-diagonal matrices, {Ki} may have different sizes, which can be chosen even larger than the size of W.
+        - The corresponding generating matrix Ri is a tall matrix.
+        - Here, we also use random permutations P(Ni) and element-wise random sign reflections B(Ni): Ri ∈{b◦p|b∈B(Ni),p∈P(Ni)}, i=1,...,L.
+- **Evenly distribute the parameters from W**
+    - We use equalization technique to guarantee all elements of W are evenly sampled.
+    - The elements of W are recurrently used in a loop in a ring shape.
+        - N: size of W, M: the total size of parameters of layers.
+        - First generate [M/N](몫) arrays and concatenate them with (M mod N) elements randomly sampled from W.
+        - Then, shuffle the concatenated arrays and get indices from the shuffled index to construct the layer's parameters.
+        - For efficient memory consumption, we just save two random seed numbers (one for sampling, one for reshuffling)
+- **RPG at multiple scale**
+    - Instead of global RPGs shared across all layers, we can use several local RPGs.
+    - **RPGs at Block level.**
+        - create several RPGs that are shared within certain network blocks.
+        - analogous to ResNet style architecture, which reuse the same design of network blocks at every layers.
+    - **RPGs at Subnetwork level**
+        - Subnetwork is used to iteratively refine and improve the prediction, but in general, weights are shared between subnetworks and this limits the learning capacity to adapt for different stages and leads to the sub-optimal. On the other hand, not sharing weights at all greatly increases the model sizes.
+        - Superpose different sub-networks with one or more RPGs. This is applied for pose estimation and multi-task regression)
+- **Experiments**
+    - Image classification
+        - more effective (3.5%~5.8% gain on CIFAR10) and efficient (15-25 times smaller inference time) than deep equilibrum model since it requires additional optimizations to find the fixed point when using infinite blocks.
+        - ResNet18 on CIFAR100: global RPG and block-level RPG give 1.4% and 1.0%, respectively, at the same parameter size. achieves 36% accuracy with only 8K backbone parameters.
+        - ResNet34 on ImageNet: achives same accuracy with only half of parameter sizes.
+    - The random seed can be considered as security keys to decode the model. It is efficient in terms of size to generate the transformation matrices.
+    - Some pruning methods achieves satisfactory pruning results by calculating the correlation matrix of a feature map from the network, and prune channels with high correlations. Following this settings, we can find the feature similarity gradually increases from small ResNet34-RPG with 45k backbone parameters to plain ResNet34 with 21M backbone parameters. This indicates the RPG networks are constructed as the pruning method.
