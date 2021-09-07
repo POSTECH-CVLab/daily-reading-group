@@ -1,3 +1,7 @@
+<img src="/Archive/2021/08/image/jinoh_210825.png">
+
+
+출처: https://cutemoomin.tistory.com/entry/Readme-파일에-이미지-넣기-마크다운-이미지 [무민은귀여워]
 Conditional Image Synthesis with Auxiliary Classifier GANs - ICML 2017
 
 
