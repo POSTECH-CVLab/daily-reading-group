@@ -5,6 +5,8 @@
 * GANSpace: Discovering Interpretable GAN Controls ([진오](./summary/jinoh_4.md))
 * Contrastive Learning for Unpaired Image to Image Translation ([진오](./summary/jinoh_6.md))
 * Momentum Contrast for Unsupervised Visual Representation Learning ([진오](./summary/jinoh_7.md))
+* Conditonal Gnerative Adversarial Nets ([진오](./summary/jinoh_25.md))
+* Conditional Image Synthesis with Auxiliary Classifier GANs ([진오](./summary/jinoh_26.md))
 * CORAL - Colored structural representation for bi-modal place recognition ([강희](./summary/kanghee_2.md))
 * Robust Neural Routing Through Space Partitions for Camera Relocalization in Dynamic Indoor Environments ([강희](./summary/kanghee_3.md))
 * Semantic Graph Based Place Recognition for 3D Point Clouds ([강희](./summary/kanghee_5.md))
