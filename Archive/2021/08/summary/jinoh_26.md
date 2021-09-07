@@ -13,8 +13,8 @@ Motivation : New methods for the improved training of generative adversarial net
 
 Method & Exp: 
 
-	0. Loss Function : 
-  <img src='Archive/2021/08/image/jinoh_210826.png'>
+	0. Loss Function :
+<img src="Archive/2021/08/image/jinoh_210826.png">
 	D is trained to maximize Ls + Lc while G is trained to maximize -Ls + Lc.
 
 	1. Generating High Resolution Images Improves Discriminability.
