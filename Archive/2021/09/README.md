@@ -8,3 +8,4 @@
 * Recurrent Parameter Generators ([승욱](./summary/woohyeon_01.md))
 * Harmonic Networks: Deep Translation and Rotation Equivariance ([우현](./summary/woohyeon_02.md))
 * Deep Learning on Lie Groups for Skeleton-based Action Recognition ([우현](./summary/woohyeon_03.md))
+* Infinite Memory Transformers ([승욱](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/09/summary/seungwook_07.md))
