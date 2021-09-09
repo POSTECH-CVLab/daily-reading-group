@@ -10,3 +10,5 @@
 * Deep Learning on Lie Groups for Skeleton-based Action Recognition ([우현](./summary/woohyeon_03.md))
 * Infinite Memory Transformers ([승욱](./summary/seungwook_07.md))
 * Sparse-MLP: A Fully-MLP Architecture with Conditional Computation ([승욱](./summary/seungwook_09.md))
+* An Image is worth 16x16 words : Transformers for Image Recognition at Scale([수현](./summary/suhyeon_06.md))
+* End to End object detection with Transformers ([수현](./summary/suhyeon_09.md))
