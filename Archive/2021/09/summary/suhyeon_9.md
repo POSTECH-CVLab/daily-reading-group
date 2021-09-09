@@ -1,6 +1,7 @@
-End to End object detection with Transformers- Nicolas Carion et al. (ECCV 2020 oral)
-    
-
+# End to End object detection with Transformers
+### Nicolas Carion et al., FAIR - ECCV 2021 oral
+#### Summarized by Suhyeon Jeong
+---
 
 
 
@@ -11,6 +12,7 @@ End to End object detection with Transformers- Nicolas Carion et al. (ECCV 2020 
 **task** : object detection
 
 **Method** : CNN encoder -> transformer encoder -> transformer decoder -> FFN(feed-forward network) 로 구성된 end-to-end model. N 개의 fixed-number object 를 predict 하며, classification label 중 no-object label 이 있어서 fixed output 으로 생기는 background detection 들을 처리할 수 있다. ground truth object 들도 N size 를 맞추기 위해 no-object 로 padding 한다. loss 는 total loss 를 최소화하는 prediction - GT 간의 bipartite matching 을 구해 계산한다. 각 match 마다 class prediction loss + bbox loss 를 계산하는데, bbox loss 는 L1 loss 와 scale invariant 한 GIoU loss 의 linear combination 이다. 
+
 + auxilary decoding losses : decoder layer 마다 FFN prediction 생성, 각 loss 를 계산하여 sum함. FFN 의 parameter 는 share 하고 있음
 
 
