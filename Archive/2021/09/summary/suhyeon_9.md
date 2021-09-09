@@ -19,7 +19,7 @@
 DETR architecture
 
 1) CNN encoder 로 dxHxW lower-resolution embedding 을 생성한다. + 1*1 convolution 을 이용하여 channel dimension reduce
-2) 1) 에서 생성된 image feature 를 d dimension 을 가진 HW 개의 vector set 으로 하여 transformer encoder 에 넘긴다. (with fixed positional encoding)
+2) 1 에서 생성된 image feature 를 d dimension 을 가진 HW 개의 vector set 으로 하여 transformer encoder 에 넘긴다. (with fixed positional encoding)
 3) transformer decoder 의 input 으로는 N learnable positional encodings (object queries) 와 encoder output 을 넣어 주게 된다. 이 positional encoding 들이 decoder 를 거치면서 N개의 object 들을 represent 하는 feature 로 바뀌게 된다. 기존 transformer 의 decoder 처럼, DETR 의 decoder layer 는 object query 의 self attention + encoder output 을 key 와 value 로 한 attention 으로 구성된다.
 4) FFN 을 거쳐 decoder output 에서 normalized center coordinate, height, width, 그리고 class label 을 predict 하게 된다. 
 
