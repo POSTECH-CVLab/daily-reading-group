@@ -3,6 +3,8 @@
 * Activation Maximization Generative Adversarial Nets ([민국](./summary/minguk_01.md))
 * Top-k Training of GANs: Improving GAN Performance by Throwing Away Bad Samples ([민국](./summary/minguk_02.md))
 * Lipschitz Generative Adversarial Nets ([민국](./summary/minguk_03.md))
+* Closed-Form Factorization of Latent Semantics in GANs ([민국](./summary/minguk_04.md))
+* Your GAN is secretly an Energy-based Model and You Should Use Discriminator Driven Latent Sampling ([민국](./summary/minguk_05.md))
 * Transpose: Keypoint Localization via Transformer ([승욱](./summary/seungwook_01.md))
 * RoFormer: Enhanced Transformer with Rotary Position Embedding ([승욱](./summary/seungwook_02.md))
 * Recurrent Parameter Generators ([승욱](./summary/woohyeon_01.md))
