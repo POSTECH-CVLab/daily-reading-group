@@ -13,3 +13,4 @@
 * An Image is worth 16x16 words : Transformers for Image Recognition at Scale([수현](./summary/suhyeon_06.md))
 * End to End object detection with Transformers ([수현](./summary/suhyeon_09.md))
 * Eyes Tell All: Irregular Pupil Shapes Reveal GAN-Generated Faces ([승욱](./summary/seungwook_10.md))
+* Swapping Autoencoder for Deep Image Manipulation  ([진오](./summary/jinoh_06.md))
