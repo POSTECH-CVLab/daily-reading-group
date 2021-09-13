@@ -14,3 +14,6 @@
 * End to End object detection with Transformers ([수현](./summary/suhyeon_09.md))
 * Eyes Tell All: Irregular Pupil Shapes Reveal GAN-Generated Faces ([승욱](./summary/seungwook_10.md))
 * Swapping Autoencoder for Deep Image Manipulation  ([진오](./summary/jinoh_06.md))
+* InfoGraph: Unsupervised and semi-supervised graph-level representation learning via mutual infromation maximization ([지예](./summary/jiye_1.md))
+* On the bottleneck of graph neural networks and its practical implications ([지예](./summary/jiye_2.md))
+* Constrained Generation of Semantically Valid graph via regularizing variational autoencoders ([지예](./summary/jiye_3.md))
