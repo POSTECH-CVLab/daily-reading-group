@@ -19,3 +19,4 @@
 * InfoGraph: Unsupervised and semi-supervised graph-level representation learning via mutual infromation maximization ([지예](./summary/jiye_1.md))
 * On the bottleneck of graph neural networks and its practical implications ([지예](./summary/jiye_2.md))
 * Constrained Generation of Semantically Valid graph via regularizing variational autoencoders ([지예](./summary/jiye_3.md))
+* Movement Pruning: Adaptive Sparsity by Fine-Tuning ([](./summary/seungwook_15.md))
