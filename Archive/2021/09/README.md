@@ -21,3 +21,4 @@
 * Constrained Generation of Semantically Valid graph via regularizing variational autoencoders ([지예](./summary/jiye_3.md))
 * ConvMLP: Hierarchical Convolutional MLPs for Vision ([승욱](./summary/seungwook_13.md))
 * Movement Pruning: Adaptive Sparsity by Fine-Tuning ([승욱](./summary/seungwook_15.md))
+* MyTraces: Investigating Correlation and Causation between User's Emotional States and Mobile Phone Interaction ([승욱](./summary/seungwook_17.md))
