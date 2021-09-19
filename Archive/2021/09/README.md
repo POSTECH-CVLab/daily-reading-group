@@ -22,3 +22,4 @@
 * ConvMLP: Hierarchical Convolutional MLPs for Vision ([승욱](./summary/seungwook_13.md))
 * Movement Pruning: Adaptive Sparsity by Fine-Tuning ([승욱](./summary/seungwook_15.md))
 * MyTraces: Investigating Correlation and Causation between User's Emotional States and Mobile Phone Interaction ([승욱](./summary/seungwook_17.md))
+* SonicPrint: A Generally adoptable and secure fingerprint biometrics in Smart Devices ([승욱](./summary/seungwook_19.md))
