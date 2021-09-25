@@ -22,6 +22,8 @@
 * How to find your friendly neighborhood: Graph attention design with self-supervision ([지예](./summary/jiye_4.md))
 * ASMR: Learning Attribute-Based Person Search with Adaptive Semantic Margin Regularizer ([지예](./summary/jiye_5.md))
 * Using rule-based labels for weak supervised learning: A chemnet for transferable chemical property prediction ([지예](./summary/jiye_6.md))
+* Molecule attention transformer ([지예](./summary/jiye_7.md))
+* Speaker sensitive response evaluation model ([지예](./summary/jiye_8.md))
 * ConvMLP: Hierarchical Convolutional MLPs for Vision ([승욱](./summary/seungwook_13.md))
 * Movement Pruning: Adaptive Sparsity by Fine-Tuning ([승욱](./summary/seungwook_15.md))
 * MyTraces: Investigating Correlation and Causation between User's Emotional States and Mobile Phone Interaction ([승욱](./summary/seungwook_17.md))
