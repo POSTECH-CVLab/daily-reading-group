@@ -29,3 +29,4 @@
 * MyTraces: Investigating Correlation and Causation between User's Emotional States and Mobile Phone Interaction ([승욱](./summary/seungwook_17.md))
 * SonicPrint: A Generally adoptable and secure fingerprint biometrics in Smart Devices ([승욱](./summary/seungwook_19.md))
 * torch.manual seed(3407) is all you need: On the influence of random seeds in deep learning architectures for computer vision([승욱](./summary/seungwook_21.md))
+* Dynamic Convolution: Attention over Convolution Kernels ([Yoonwoo](./summary/yoonwoo_30_1.md))
