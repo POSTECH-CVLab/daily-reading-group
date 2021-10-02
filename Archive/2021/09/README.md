@@ -30,3 +30,7 @@
 * SonicPrint: A Generally adoptable and secure fingerprint biometrics in Smart Devices ([승욱](./summary/seungwook_19.md))
 * torch.manual seed(3407) is all you need: On the influence of random seeds in deep learning architectures for computer vision([승욱](./summary/seungwook_21.md))
 * Dynamic Convolution: Attention over Convolution Kernels ([Yoonwoo](./summary/yoonwoo_30_1.md))
+* Involution: Inverting the Inherence of Convolutiojns for Visual Recognition ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Involution-Inverting-the-Inherence-of-Convolutiojns-for-Visual-Recognition-9c76532894d0415cbddfcc8cfaa21203))
+* PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/PAConv-Position-Adaptive-Convolution-with-Dynamic-Kernel-Assembling-on-Point-Clouds-018eb2cd7ef1499ea9c6bfe3ed3fd0be))
+* PVT: Point Voxel Transformer for 3D Deep Learning ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/PVT-Point-Voxel-Transformer-for-3D-Deep-Learning-04bdf6709e004216a5caaf6d1f4392c4))
+* Voxel Transformer for 3D Object Detection ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Voxel-Transformer-for-3D-Object-Detection-49214edb91f044d5bda44a8cce0f3abc))
