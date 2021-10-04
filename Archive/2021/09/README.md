@@ -24,6 +24,8 @@
 * Using rule-based labels for weak supervised learning: A chemnet for transferable chemical property prediction ([지예](./summary/jiye_6.md))
 * Molecule attention transformer ([지예](./summary/jiye_7.md))
 * Speaker sensitive response evaluation model ([지예](./summary/jiye_8.md))
+* Junction Tree variational autoencoder for molecular graph generation ([지예](./summary/jiye_9.md))
+* On the evaluation of conditional generation (FJD) ([지예](./summary/jiye_10.md))
 * ConvMLP: Hierarchical Convolutional MLPs for Vision ([승욱](./summary/seungwook_13.md))
 * Movement Pruning: Adaptive Sparsity by Fine-Tuning ([승욱](./summary/seungwook_15.md))
 * MyTraces: Investigating Correlation and Causation between User's Emotional States and Mobile Phone Interaction ([승욱](./summary/seungwook_17.md))
