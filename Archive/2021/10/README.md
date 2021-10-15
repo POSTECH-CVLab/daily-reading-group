@@ -12,3 +12,4 @@
 * NeRF: Representing Scenes as Nueral Radiance FIelds for View Synthesis ([승욱](./summary/seungwook_12.md))
 * Towards Reverse-Engineering Black-box Neural Networks ([승욱](./summary/seungwook_13.md))
 * Revealing Scenes by Inverting Structure from Motion Reconstructions ([승욱](./summary/seungwook_14.md))
+* A Closer look at Rotation-invariant Deep Point Cloud Analysis ([승욱](./summary/seungwook_15.md))
