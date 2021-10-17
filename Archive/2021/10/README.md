@@ -13,3 +13,8 @@
 * Towards Reverse-Engineering Black-box Neural Networks ([승욱](./summary/seungwook_13.md))
 * Revealing Scenes by Inverting Structure from Motion Reconstructions ([승욱](./summary/seungwook_14.md))
 * A Closer look at Rotation-invariant Deep Point Cloud Analysis ([승욱](./summary/seungwook_15.md))
+* On the Continuity Rotation Representations in Neural Networks ([YoonwooJeong](https://www.notion.so/On-the-Continuity-Rotation-Representations-in-Neural-Networks-b29730b8e98b427d9ad2ff148bc4cdb8))
+* Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields ([YoonwooJeong](https://www.notion.so/Mip-NeRF-A-Multiscale-Representation-for-Anti-Aliasing-Neural-Radiance-Fields-59ec916c2e394448ac8dd5edd420943e))
+* Nerfies: Deformable Neural Radiance Fields ([YoonwooJeong](https://www.notion.so/Nerfies-Deformable-Neural-Radiance-Fields-5c6ad58ff66c40809929e4fe0f1ee042))
+* HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields ([YoonwooJeong](https://www.notion.so/HyperNeRF-A-Higher-Dimensional-REpresentation-for-Topologically-Varying-Neural-Radiance-Fields-1699313c920249ecb47acd007b65cadc))
+* A Closer Look at Rotation-invariant Deep Point Cloud Analysis ([YoonwooJeong](https://ballistic-scarecrow-96b.notion.site/A-Closer-Look-at-Rotation-invariant-Deep-Point-Cloud-Analysis-ab79ef9e422b466e8eee603b9805fd3d))
