@@ -24,3 +24,4 @@
 * MolGAN: an implicit generative model for small molecular graphs ([지예](./summary/jiye_4.md))
 * Graph U-Nets ([지예](./summary/jiye_5.md))
 * Assessing generative models via precision and recall ([지예](./summary/jiye_6.md))
+* MediaPipe: A Framework for Building Perception Pipelines ([승욱](./summary/seungwook_19.md))
