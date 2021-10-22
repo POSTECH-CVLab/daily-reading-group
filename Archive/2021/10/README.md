@@ -26,3 +26,4 @@
 * Assessing generative models via precision and recall ([지예](./summary/jiye_6.md))
 * Detecting Wireless Spy Camera via Stimulating and Probing ([승욱](./summary/seungwook_18.md))
 * MediaPipe: A Framework for Building Perception Pipelines ([승욱](./summary/seungwook_19.md))
+* Learning to Orient Surfaces by self-supervised Spherical CNNs ([승욱](./summary/seungwook_22.md))
