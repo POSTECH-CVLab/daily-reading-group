@@ -27,3 +27,5 @@
 * Detecting Wireless Spy Camera via Stimulating and Probing ([승욱](./summary/seungwook_18.md))
 * MediaPipe: A Framework for Building Perception Pipelines ([승욱](./summary/seungwook_19.md))
 * Learning to Orient Surfaces by self-supervised Spherical CNNs ([승욱](./summary/seungwook_22.md))
+* The functional correspondence problem ([승욱](./summary/seungwook_24.md))
+
