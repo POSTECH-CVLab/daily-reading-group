@@ -33,3 +33,4 @@
 * Learning to Orient Surfaces by self-supervised Spherical CNNs ([승욱](./summary/seungwook_22.md))
 * The functional correspondence problem ([승욱](./summary/seungwook_24.md))
 * Learning to resize images for computer vision tasks ([승욱](./summary/seungwook_25.md))
+* Infinite Nature: Perpetual View Generation of Natural Scenes from a Single Image ([승욱](./summary/seungwook_30.md))
