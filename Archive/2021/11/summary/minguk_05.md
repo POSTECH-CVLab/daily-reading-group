@@ -1,8 +1,7 @@
-Florence: A New Foundation Model for Computer Vision
-
-Lu Yuan, et al. , arXiv 2021, Microsoft Florence Team
-
-
+# Florence: A New Foundation Model for Computer Vision
+### Lu Yuan, et al. , arXiv 2021, Microsoft Florence Team
+#### Summarized by Minguk Kang
+---
 
 총평: 
 
