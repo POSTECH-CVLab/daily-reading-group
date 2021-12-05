@@ -15,20 +15,24 @@
 
 Motivation:
 
-Human-like AI is not achieved by designing specific models to solve specific problems.
-CLIP, ALIGN, Wu Dao 2.0 are restricted to image to text mapping only tasks such as classification, retrieval, and tagging.
-What is the foundation model for computer vision?
+* Human-like AI is not achieved by designing specific models to solve specific problems.
+
+* CLIP, ALIGN, Wu Dao 2.0 are restricted to image to text mapping only tasks such as classification, retrieval, and tagging.
+* What is the foundation model for computer vision?
+
 Method:
 
-Foundation models for computer vision to be a pre-trained model and its adapters for solving all vision tasks in this Space-Time-Modality space.
-Present an emerging paradigm for building a vision foundation model, called Florence. Florence consists of data curation, model pre-training, task adaptations, and training infrastructure.
-For image encoder, they adopt hierarchical Vision Transformers (scale invariance nature and linear computational complexity w.r.t image size).
-use a unified image-text contrastive learning (UniCL, Yang et al., 2022?)
-Use ZeRO, activation checkpointing, mixed-precision training, and gradient cache to reduce the memory consumption.
+* Foundation models for computer vision to be a pre-trained model and its adapters for solving all vision tasks in this Space-Time-Modality space.
+* Present an emerging paradigm for building a vision foundation model, called Florence. Florence consists of data curation, model pre-training, task adaptations, and training infrastructure.
+* For image encoder, they adopt hierarchical Vision Transformers (scale invariance nature and linear computational complexity w.r.t image size).
+* use a unified image-text contrastive learning (UniCL, Yang et al., 2022?)
+* Use ZeRO, activation checkpointing, mixed-precision training, and gradient cache to reduce the memory consumption.
+
 Data:
 
-A new curated 900 million image-text pairs.
+* A new curated 900 million image-text pairs.
+
 Results:
 
-show strength in zero-shot transfer in 12 classification downstream tasks (win 9 over 12, SOTA in ImageNet zero shot adaptation)
+* show strength in zero-shot transfer in 12 classification downstream tasks (win 9 over 12, SOTA in ImageNet zero shot adaptation)
 linear probe in 11 classification (9/11), and so on.
