@@ -16,3 +16,8 @@
 - RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs ([YoonwooJeong](https://www.notion.so/RegNeRF-Regularizing-Neural-Radiance-Fields-for-View-Synthesis-from-Sparse-Inputs-6af77f9aa1634ee9a3b7ac2406559870))
 - The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks ([YoonwooJeong](https://www.notion.so/The-Lottery-Ticket-Hypothesis-Finding-Sparse-Trainable-Neural-Networks-2988954168a54271b5ae0a1eba4d9ed0))
 - Florence: A New Foundation Model for Computer Vision ([Minguk](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/11/summary/minguk_05.md))
+- EagleEye: Wearable Camera-based Person Identification in Crowded Urban Spaces ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/11/summary/seungwook_01.md))
+- PPFL: Privacy-preserving Federated Learning with Trusted Execution Environments ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/11/summary/seungwook_02.md))
+- Differentiating Higher and Lower Job Performers in the Workspace Using Mobile Sensing ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/11/summary/seungwook_22.md))
+- Towards Reverse-Engineering Black-Box Neural Networks ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/11/summary/seungwook_27.md))
+- Revealing Scenes by Inverting Structure from Motion Reconstruction ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/11/summary/seungwook_28.md))
