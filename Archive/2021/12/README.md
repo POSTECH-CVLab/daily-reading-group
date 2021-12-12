@@ -12,3 +12,8 @@
 - Perceiver: General Perception with Iterative Attention ([JiYe](https://dawn-laser-9d4.notion.site/Perceiver-General-Perception-with-Iterative-Attention-5d68f8e2cdc644ee99adb6c7aae559b1))
 - Learning Debiased Representation via Disentangled Feature Augmentation ([Sohyun](https://broken-minute-4b4.notion.site/Learning-Debiased-Representation-via-Disentangled-Feature-Augmentation-35206a4ee8b84418aa384e122d97b36d))
 - Artistic Style Transfer with Internal-external Learning and Contrastive Learning ([Sohyun](https://broken-minute-4b4.notion.site/Artistic-Style-Transfer-with-Internal-external-Learning-and-Contrastive-Learning-dd95311b02af412ea14f3c32d892ccc7))
+- Data Augmentation Can Improve Robustness ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_01.md))
+- Post-Training Quantization for Vision Transformer ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_02.md))
+- Adder Attention for Vision Transformer([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_03.md))
+- TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_04.md))
+- SOFT: Softmax-free Transformer with Linear Complexity([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_05.md))
