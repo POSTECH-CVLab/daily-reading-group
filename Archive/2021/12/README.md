@@ -8,3 +8,4 @@
 - A-NeRF: Articulated Neural Radiance Fields for Learning Human Shape, Appearance, and Pose ([Yoonwoo](https://www.notion.so/A-NeRF-Articulated-Neural-Radiance-Fields-for-Learning-Human-Shape-Appearance-and-Pose-b76a0232334a42758473186b91b41222))
 - End-to-end multi-modal video temporal grounding ([Dayoung](https://encouraging-plow-56c.notion.site/End-to-end-multi-modal-video-temporal-grounding-f90b58b6b9f94c18beae290f78672bc8))
 - Weakly-supervised dense action anticipation ([Dayoung](https://encouraging-plow-56c.notion.site/Weakly-supervised-dense-action-anticipation-cbf46ff8e58746c98167153749ff7c1d))
+- Extrapolating from a single image to a thousand classes using distillation ([JiYe](https://www.notion.so/Extrapolating-from-a-single-image-to-a-thousand-classes-using-distillation-2b2ad5fc74d84aa8b755439af28e501e))
