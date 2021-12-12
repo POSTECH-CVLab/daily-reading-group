@@ -9,3 +9,4 @@
 - End-to-end multi-modal video temporal grounding ([Dayoung](https://encouraging-plow-56c.notion.site/End-to-end-multi-modal-video-temporal-grounding-f90b58b6b9f94c18beae290f78672bc8))
 - Weakly-supervised dense action anticipation ([Dayoung](https://encouraging-plow-56c.notion.site/Weakly-supervised-dense-action-anticipation-cbf46ff8e58746c98167153749ff7c1d))
 - Extrapolating from a single image to a thousand classes using distillation ([JiYe](https://dawn-laser-9d4.notion.site/Extrapolating-from-a-single-image-to-a-thousand-classes-using-distillation-2b2ad5fc74d84aa8b755439af28e501e))
+- Learning Debiased Representation via Disentangled Feature Augmentation([Sohyun](https://broken-minute-4b4.notion.site/Learning-Debiased-Representation-via-Disentangled-Feature-Augmentation-35206a4ee8b84418aa384e122d97b36d))
