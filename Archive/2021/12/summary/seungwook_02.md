@@ -7,8 +7,7 @@
 * The target problem is well-motivated, but the downsides of previous methods are vaguely proposed.
     * "Not suitable for transformer architectures with self-attention" - which does not always seem to be true.
 * The motivation behind each solution/method proposed is well inspired and theoretically sound
-* But the solution for each motivation does not seem to be "optimal" or well-searched
-    * Which may not always be necessary, but it makes the paper look "easily improvable"
+* Some components and solutions proposed look heuristic at parts
 
 **Task**: As the paper title, post-training quantization for vision transformer
 
