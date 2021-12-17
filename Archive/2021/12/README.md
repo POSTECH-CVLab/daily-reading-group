@@ -17,3 +17,5 @@
 - Adder Attention for Vision Transformer([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_03.md))
 - TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_04.md))
 - SOFT: Softmax-free Transformer with Linear Complexity([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_05.md))
+- PlenOctrees for Real-time Rendering of Neural Radiance Fields([Yoonwoo](https://www.notion.so/PlenOctrees-for-Real-time-Rendering-of-Neural-Radiance-Fields-f0b57766550e463e9ef231851cf9615d))
+- Plenoxels: Radiance Fields without Neural Networks([Yoonwoo](https://www.notion.so/Plenoxels-Radiance-Fields-without-Neural-Networks-02b048270f9e487e8788a2a299c78ee6))
