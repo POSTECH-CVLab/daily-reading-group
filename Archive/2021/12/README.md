@@ -19,3 +19,6 @@
 - SOFT: Softmax-free Transformer with Linear Complexity([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2021/12/summary/seungwook_05.md))
 - PlenOctrees for Real-time Rendering of Neural Radiance Fields([Yoonwoo](https://www.notion.so/PlenOctrees-for-Real-time-Rendering-of-Neural-Radiance-Fields-f0b57766550e463e9ef231851cf9615d))
 - Plenoxels: Radiance Fields without Neural Networks([Yoonwoo](https://www.notion.so/Plenoxels-Radiance-Fields-without-Neural-Networks-02b048270f9e487e8788a2a299c78ee6))
+- Unbiased Look at Dataset Bias([Yoonwoo](https://www.notion.so/Unbiased-Look-at-Dataset-Bias-96ac667243964fc98dfd0657e10ed0f3))
+- MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications([Yoonwoo](https://www.notion.so/MobileNets-Efficient-Convolutional-Neural-Networks-for-Mobile-Vision-Applications-74fef17073ce4f178a13f65244045269))
+- CityNeRF: Building NeRF at City Scale([Yoonwoo](https://www.notion.so/CityNeRF-Building-NeRF-at-City-Scale-230885fea85343eaa048c7fca49b4221))
