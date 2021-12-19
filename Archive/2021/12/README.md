@@ -23,3 +23,5 @@
 - MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications([Yoonwoo](https://www.notion.so/MobileNets-Efficient-Convolutional-Neural-Networks-for-Mobile-Vision-Applications-74fef17073ce4f178a13f65244045269))
 - CityNeRF: Building NeRF at City Scale([Yoonwoo](https://www.notion.so/CityNeRF-Building-NeRF-at-City-Scale-230885fea85343eaa048c7fca49b4221))
 - Do Transformers really perform badly for graph representation? ([JiYe](https://dawn-laser-9d4.notion.site/Do-Transformers-really-perform-badly-for-graph-representation-beea6de9de9640b389fa590be447ac0f))
+- Multiscale vision transformer ([Dayoung](https://encouraging-plow-56c.notion.site/Multiscale-Vision-transformer-bf55be8356f34e84ad3b4325a034faaf))
+- Long short-term transformer for online action detection ([Dayoung](https://encouraging-plow-56c.notion.site/Long-short-term-transformer-for-online-action-detection-aa56025f826c4b97aa4315a4b824f939))
