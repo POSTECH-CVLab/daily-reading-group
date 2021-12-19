@@ -22,3 +22,4 @@
 - Unbiased Look at Dataset Bias([Yoonwoo](https://www.notion.so/Unbiased-Look-at-Dataset-Bias-96ac667243964fc98dfd0657e10ed0f3))
 - MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications([Yoonwoo](https://www.notion.so/MobileNets-Efficient-Convolutional-Neural-Networks-for-Mobile-Vision-Applications-74fef17073ce4f178a13f65244045269))
 - CityNeRF: Building NeRF at City Scale([Yoonwoo](https://www.notion.so/CityNeRF-Building-NeRF-at-City-Scale-230885fea85343eaa048c7fca49b4221))
+- Do Transformers really perform badly for graph representation? ([JiYe](https://dawn-laser-9d4.notion.site/Do-Transformers-really-perform-badly-for-graph-representation-beea6de9de9640b389fa590be447ac0f))
