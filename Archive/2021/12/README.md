@@ -27,3 +27,4 @@
 - Multiscale vision transformer ([Dayoung](https://encouraging-plow-56c.notion.site/Multiscale-Vision-transformer-bf55be8356f34e84ad3b4325a034faaf))
 - Long short-term transformer for online action detection ([Dayoung](https://encouraging-plow-56c.notion.site/Long-short-term-transformer-for-online-action-detection-aa56025f826c4b97aa4315a4b824f939))
 - Video transformer network ([Dayoung](https://encouraging-plow-56c.notion.site/Video-Transformer-Network-f0da2728a8fa48aab4b8cfa31cd35a63))
+- Is space-time attention all you need for video understanding? ([Dayoung](https://encouraging-plow-56c.notion.site/Is-space-time-attention-all-you-need-for-video-understanding-d0b34cae61b44a14a430bf3ca5487c03))
