@@ -28,3 +28,5 @@
 - Long short-term transformer for online action detection ([Dayoung](https://encouraging-plow-56c.notion.site/Long-short-term-transformer-for-online-action-detection-aa56025f826c4b97aa4315a4b824f939))
 - Video transformer network ([Dayoung](https://encouraging-plow-56c.notion.site/Video-Transformer-Network-f0da2728a8fa48aab4b8cfa31cd35a63))
 - Is space-time attention all you need for video understanding? ([Dayoung](https://encouraging-plow-56c.notion.site/Is-space-time-attention-all-you-need-for-video-understanding-d0b34cae61b44a14a430bf3ca5487c03))
+- Inductive Representation Learning on Large Graphs ([JiYe](https://dawn-laser-9d4.notion.site/Inductive-Representation-Learning-on-Large-Graphs-758212cb8eb64f68bebf94f7c44d576b))
+- Rethinking Graph Transformers with sepctral attention ([JiYe](https://dawn-laser-9d4.notion.site/Rethinking-Graph-Transformers-with-sepctral-attention-e0cb79e771a948d0837a623f4e322afa))
