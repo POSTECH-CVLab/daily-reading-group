@@ -13,3 +13,6 @@ POSTECH Computer Vision Lab
 * [2021-10](./Archive/2021/10)
 * [2021-11](./Archive/2021/11)
 * [2021-12](./Archive/2021/12)
+
+### 2022
+* [2022-01](./Archive/2022/01)
