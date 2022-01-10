@@ -11,3 +11,6 @@
 - Quo vadis, action recognition? A new model and the Kinetics Dataset ([Dayoung](https://encouraging-plow-56c.notion.site/Quo-vadis-action-recognition-A-new-model-and-the-Kinetics-Dataset-5f90379288a74a2bb2a476f11bc1d6e0))
 - Video vision transformer ([Dayoung](https://encouraging-plow-56c.notion.site/Video-vision-transformer-ViViT-66fb47251f884dec95d0236ca905eb7c))
 - Anticipative Video Transformer ([Dayoung](https://encouraging-plow-56c.notion.site/Anticipative-Video-Transformer-58251a6434294e2ebfd0563181f72699))
+- DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/DeepSDF-Learning-Continuous-Signed-Distance-Functions-for-Shape-Representation-9d3bfaa7f2454add83a88e7897cace4e))
+- Learned Initializations for Optimizing Coordinate-Based Neural Representations ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Learned-Initializations-for-Optimizing-Coordinate-Based-Neural-Representations-9f2b13d85e1e47e8b0121f467b4b79bd))
+- 3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/3DMatch-Learning-Local-Geometric-Descriptors-from-RGB-D-Reconstructions-e5e4a0d4375843d09b6091831856347d))
