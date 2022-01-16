@@ -16,3 +16,5 @@
 - 3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/3DMatch-Learning-Local-Geometric-Descriptors-from-RGB-D-Reconstructions-e5e4a0d4375843d09b6091831856347d))
 - Domain-Aware Universal Style Transfer ([Sohyun](https://broken-minute-4b4.notion.site/Domain-Aware-Universal-Style-Transfer-97a8c32ded844e2082f46691776a0710))
 - ArtFlow: Unbiased Image Style Transfer via Reversible Neural Flows ([Sohyun](https://broken-minute-4b4.notion.site/ArtFlow-Unbiased-Image-Style-Transfer-via-Reversible-Neural-Flows-7baea6971d134d2d8e676bc778305b00))
+- Unsupervised discovery of actions in instructional videos ([Dayoung](https://encouraging-plow-56c.notion.site/Unsupervised-discovery-of-actions-in-instructional-videos-67e6be9107ed4d298b8619de25725efe))
+- Differentiable grammars for videos([Dayoung](https://encouraging-plow-56c.notion.site/Differentiable-Grammars-for-Videos-6ab639aec8e94948b8c012c1d9b4fe9f))
