@@ -22,3 +22,8 @@
 - Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Neural-Geometric-Level-of-Detail-Real-time-Rendering-with-Implicit-3D-Shapes-00829cab4dea4ccb8d06838337ec935e))
 - Neural Descriptor Fields: SE(3)-equivariant Object Representation for Manipulation  ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Neural-Descriptor-Fields-SE-3-equivariant-Object-Representation-for-Manipulation-c3b7861454fd491fa8d07f7f769d1f92))
 - Instant Neural Graphics Primitives with a Multiresolution Hash Encoding ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Instant-Neural-Graphics-Primitives-with-a-Multiresolution-Hash-Encoding-a82666953de047b7a2813c3084c2f210))
+- Pruning Self-Attentinos into Convolutional Layers in Single Path ([Seungwook](https://wookiekim.github.io/summary-f/))
+- Sparse DETR; Efficient End-to-End object detection with learnable sparsity ([Seungwook](https://wookiekim.github.io/summary-g/))
+- A ConvNet for the 2020s ([Seungwook](https://wookiekim.github.io/test_permalink/))
+- SPViT; Enabling Faster Vision Transformers via Soft Token Pruning ([Seungwook](https://wookiekim.github.io/summary-i/))
+- Evo-ViT;Slow-Fast Token Evolution for Dynamic Vision Transformer ([Seungwook](https://wookiekim.github.io/summary-j/))
