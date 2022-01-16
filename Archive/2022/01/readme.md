@@ -14,4 +14,4 @@
 - DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/DeepSDF-Learning-Continuous-Signed-Distance-Functions-for-Shape-Representation-9d3bfaa7f2454add83a88e7897cace4e))
 - Learned Initializations for Optimizing Coordinate-Based Neural Representations ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Learned-Initializations-for-Optimizing-Coordinate-Based-Neural-Representations-9f2b13d85e1e47e8b0121f467b4b79bd))
 - 3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/3DMatch-Learning-Local-Geometric-Descriptors-from-RGB-D-Reconstructions-e5e4a0d4375843d09b6091831856347d))
-- Domain-Aware Universal Style Transfer ([Sohyun] (https://www.notion.so/Domain-Aware-Universal-Style-Transfer-97a8c32ded844e2082f46691776a0710))
+- Domain-Aware Universal Style Transfer ([Sohyun](https://www.notion.so/Domain-Aware-Universal-Style-Transfer-97a8c32ded844e2082f46691776a0710))
