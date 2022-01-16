@@ -18,3 +18,4 @@
 - ArtFlow: Unbiased Image Style Transfer via Reversible Neural Flows ([Sohyun](https://broken-minute-4b4.notion.site/ArtFlow-Unbiased-Image-Style-Transfer-via-Reversible-Neural-Flows-7baea6971d134d2d8e676bc778305b00))
 - Unsupervised discovery of actions in instructional videos ([Dayoung](https://encouraging-plow-56c.notion.site/Unsupervised-discovery-of-actions-in-instructional-videos-67e6be9107ed4d298b8619de25725efe))
 - Differentiable grammars for videos([Dayoung](https://encouraging-plow-56c.notion.site/Differentiable-Grammars-for-Videos-6ab639aec8e94948b8c012c1d9b4fe9f))
+- Ensembling Off-the-shelf Models for GAN Training ([Minguk](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/01/summary/minguk_16.md))
