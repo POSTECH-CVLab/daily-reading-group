@@ -19,3 +19,6 @@
 - Unsupervised discovery of actions in instructional videos ([Dayoung](https://encouraging-plow-56c.notion.site/Unsupervised-discovery-of-actions-in-instructional-videos-67e6be9107ed4d298b8619de25725efe))
 - Differentiable grammars for videos([Dayoung](https://encouraging-plow-56c.notion.site/Differentiable-Grammars-for-Videos-6ab639aec8e94948b8c012c1d9b4fe9f))
 - Ensembling Off-the-shelf Models for GAN Training ([Minguk](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/01/summary/minguk_16.md))
+- Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Neural-Geometric-Level-of-Detail-Real-time-Rendering-with-Implicit-3D-Shapes-00829cab4dea4ccb8d06838337ec935e))
+- Neural Descriptor Fields: SE(3)-equivariant Object Representation for Manipulation  ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Neural-Descriptor-Fields-SE-3-equivariant-Object-Representation-for-Manipulation-c3b7861454fd491fa8d07f7f769d1f92))
+- Instant Neural Graphics Primitives with a Multiresolution Hash Encoding ([Yoonwoo](https://ballistic-scarecrow-96b.notion.site/Instant-Neural-Graphics-Primitives-with-a-Multiresolution-Hash-Encoding-a82666953de047b7a2813c3084c2f210))
