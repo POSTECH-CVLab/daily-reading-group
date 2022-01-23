@@ -27,3 +27,6 @@
 - A ConvNet for the 2020s ([Seungwook](https://wookiekim.github.io/test_permalink/))
 - SPViT; Enabling Faster Vision Transformers via Soft Token Pruning ([Seungwook](https://wookiekim.github.io/summary-i/))
 - Evo-ViT;Slow-Fast Token Evolution for Dynamic Vision Transformer ([Seungwook](https://wookiekim.github.io/summary-j/))
+- Learning Multiview 3D point cloud registration ([Seungwook](https://wookiekim.github.io/summary_multiview3dregistration/))
+- Bootstrap Your Own Correspondences ([Seungwook](https://wookiekim.github.io/summary_byoc/))
+- Curriculum learning ([Seungwook](https://wookiekim.github.io/summary_curriculumlearning/))
