@@ -27,6 +27,5 @@
 - A ConvNet for the 2020s ([Seungwook](https://wookiekim.github.io/test_permalink/))
 - SPViT; Enabling Faster Vision Transformers via Soft Token Pruning ([Seungwook](https://wookiekim.github.io/summary-i/))
 - Evo-ViT;Slow-Fast Token Evolution for Dynamic Vision Transformer ([Seungwook](https://wookiekim.github.io/summary-j/))
-- Learning Multiview 3D point cloud registration ([Seungwook](https://wookiekim.github.io/summary_multiview3dregistration/))
-- Bootstrap Your Own Correspondences ([Seungwook](https://wookiekim.github.io/summary_byoc/))
-- Curriculum learning ([Seungwook](https://wookiekim.github.io/summary_curriculumlearning/))
+- Self-supervised spatiotemporal learning via video clip order prediction ([Dayoung](https://encouraging-plow-56c.notion.site/Self-supervised-spatio-temporal-learning-via-video-clip-order-prediction-1891a979a3b14d9dbad62842fcffce39))
+- MERLOT: Multimodal neural script knowledge models([Dayoung](https://encouraging-plow-56c.notion.site/MERLOT-Multimodal-neural-script-knowledge-models-e743d84f1ff34632b633fce70665223f)) 
