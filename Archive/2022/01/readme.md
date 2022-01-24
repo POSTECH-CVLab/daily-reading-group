@@ -30,3 +30,6 @@
 - Self-supervised spatiotemporal learning via video clip order prediction ([Dayoung](https://encouraging-plow-56c.notion.site/Self-supervised-spatio-temporal-learning-via-video-clip-order-prediction-1891a979a3b14d9dbad62842fcffce39))
 - MERLOT: Multimodal neural script knowledge models([Dayoung](https://encouraging-plow-56c.notion.site/MERLOT-Multimodal-neural-script-knowledge-models-e743d84f1ff34632b633fce70665223f)) 
 - Large scale point cloud semantic segmentation with super point graphs([Suhyeon](https://pattern-packet-df5.notion.site/Large-scale-point-cloud-semantic-segmentation-with-super-point-graphs-8b5be2087fd6496791cbf6c32030b76f))
+- Learning Multiview 3D point cloud registration ([Seungwook](https://wookiekim.github.io/summary_multiview3dregistration/))
+- Bootstrap Your Own Correspondences ([Seungwook](https://wookiekim.github.io/summary_byoc/))
+- Curriculum learning ([Seungwook](https://wookiekim.github.io/summary_curriculumlearning/))
