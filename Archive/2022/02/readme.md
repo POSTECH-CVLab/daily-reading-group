@@ -9,3 +9,8 @@
 - PRE-TRAINING MOLECULAR GRAPH REPRESENTATION WITH 3D GEOMETRY ([JiYe](https://dawn-laser-9d4.notion.site/PRE-TRAINING-MOLECULAR-GRAPH-REPRESENTATION-WITH-3D-GEOMETRY-e8efa3e8c7c94a149655a5d8d687623b))
 - When will you do what? Anticipating temporal occurrences of activities([Dayoung](https://encouraging-plow-56c.notion.site/When-will-you-do-what-Anticipating-temporal-occurrences-of-activities-ade24e92a4f642a6b7799a02a0539d20))
 - Temporal aggregate representations for long-range video understanding([Dayoung](https://encouraging-plow-56c.notion.site/Temporal-aggregate-representations-for-long-range-video-understanding-ad1701e7504a445b869d6bbc4fd59494))
+- Open-vocabulary Object Detection via Vision and Language Knowledge Distillation ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/02/summary/seungwook_1.md))
+- Einops: Clear and Reliable Tensor Manipulations with Einstein-like Notation ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/02/summary/seungwook_2.md))
+- CoFiNet: Reliable Coarse-to-fine Correspondences for Robust Point Cloud Registration ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/02/summary/seungwook_3.md))
+- KPConv: Flexible and Deformable Convolution for Point Clouds 
+([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/02/summary/seungwook_4.md))
