@@ -1,5 +1,5 @@
 # CoFiNet: Reliable Coarse-to-fine Correspondences for Robust Point Cloud Registration
-## Hao Yu et al., NeurIPS 2021
+## Hao Yu et al., MunichU - NeurIPS 2021
 #### Summarized by Seungwook Kim
 ---
 
