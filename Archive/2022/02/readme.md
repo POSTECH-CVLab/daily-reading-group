@@ -7,3 +7,5 @@
 - Graph Neural Networks with learnable structural and positional representations ([JiYe](https://dawn-laser-9d4.notion.site/Graph-Neural-Networks-with-learnable-structural-and-positional-representations-6da41edf276144a5bd6841d16cf6bceb))
 - Large-Scale Representation Learning on graphs via bootstrapping (BGRL) ([JiYe](https://dawn-laser-9d4.notion.site/Large-Scale-Representation-Learning-on-graphs-via-bootstrapping-BGRL-c8e9789d6c7445659bc2e01583fc2cce))
 - PRE-TRAINING MOLECULAR GRAPH REPRESENTATION WITH 3D GEOMETRY ([JiYe](https://dawn-laser-9d4.notion.site/PRE-TRAINING-MOLECULAR-GRAPH-REPRESENTATION-WITH-3D-GEOMETRY-e8efa3e8c7c94a149655a5d8d687623b))
+- When will you do what? Anticipating temporal occurrences of activities([Dayoung](https://encouraging-plow-56c.notion.site/When-will-you-do-what-Anticipating-temporal-occurrences-of-activities-ade24e92a4f642a6b7799a02a0539d20))
+- Temporal aggregate representations for long-range video understanding([Dayoung](https://encouraging-plow-56c.notion.site/Temporal-aggregate-representations-for-long-range-video-understanding-ad1701e7504a445b869d6bbc4fd59494))
