@@ -17,3 +17,4 @@
 - Evaluation metrics for graph generative models: problems, pitfalls, and practical solution ([JiYe](https://dawn-laser-9d4.notion.site/Evaluation-metrics-for-graph-generative-models-problems-pitfalls-and-practical-solution-28f7c34583c7405b9ebfd8496f1a8dd1))
 - End-to-end object detection with Transformers([Dayoung](https://encouraging-plow-56c.notion.site/End-to-end-object-detection-with-Transformers-749dcf981cea47a5930f4f0d8009b5a6))
 - Time-conditioned action anticipation in one shot([Dayoung](https://encouraging-plow-56c.notion.site/Time-conditioned-action-anticipation-in-one-shot-422b128fd36f47d785264b729d53f720))
+- How do Vision Transformers work? ([Seungwook](https://www.youtube.com/watch?v=UTkmMPfQMh8&t=1407s))
