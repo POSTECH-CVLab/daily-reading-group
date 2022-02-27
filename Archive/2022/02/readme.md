@@ -14,3 +14,4 @@
 - CoFiNet: Reliable Coarse-to-fine Correspondences for Robust Point Cloud Registration ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/02/summary/seungwook_3.md))
 - KPConv: Flexible and Deformable Convolution for Point Clouds 
 ([Seungwook](https://github.com/POSTECH-CVLab/daily-reading-group/blob/main/Archive/2022/02/summary/seungwook_4.md))
+- Evaluation metrics for graph generative models: problems, pitfalls, and practical solution ([JiYe](https://dawn-laser-9d4.notion.site/Evaluation-metrics-for-graph-generative-models-problems-pitfalls-and-practical-solution-28f7c34583c7405b9ebfd8496f1a8dd1))
