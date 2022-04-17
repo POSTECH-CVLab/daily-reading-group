@@ -6,3 +6,4 @@
 - Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time  ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=da760f1e22ab430db745e586ed4c4f4b))
 - What is being transferred in transfer learning? ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=da8a9c258e0b4fbda01e885ca187139f))
 - Industrial Style Transfer with Large-scale Geometric Warping and Content Preservation ([Sohyun](https://broken-minute-4b4.notion.site/Industrial-Style-Transfer-with-Large-scale-Geometric-Warping-and-Content-Preservation-45e638e0013e426fa144706eb1cd1fbe))
+- Rethinking Semantic Segmentation: A Prototype View ([Sohyun](https://broken-minute-4b4.notion.site/Rethinking-Semantic-Segmentation-A-Prototype-View-5f0fd8c3ce6d4a4cab4845c567b2dbe4))
