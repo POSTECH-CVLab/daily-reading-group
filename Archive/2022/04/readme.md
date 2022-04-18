@@ -7,3 +7,7 @@
 - What is being transferred in transfer learning? ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=da8a9c258e0b4fbda01e885ca187139f))
 - Industrial Style Transfer with Large-scale Geometric Warping and Content Preservation ([Sohyun](https://broken-minute-4b4.notion.site/Industrial-Style-Transfer-with-Large-scale-Geometric-Warping-and-Content-Preservation-45e638e0013e426fa144706eb1cd1fbe))
 - Rethinking Semantic Segmentation: A Prototype View ([Sohyun](https://broken-minute-4b4.notion.site/Rethinking-Semantic-Segmentation-A-Prototype-View-5f0fd8c3ce6d4a4cab4845c567b2dbe4))
+- OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=ce93b0250d3a48ce98a9b8ee35af0dbb))
+- Rich feature hierarchies for accurate object detection and semantic segmentation ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=d2c5f8a0bb2849eba9b931a516d06da2))
+- Fast R-CNN ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=8d12530fad2a4641b3d297e2ec10834d))
+- Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=d968def243c646f3a5a55f46494a46ca))
