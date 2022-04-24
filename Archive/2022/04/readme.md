@@ -12,3 +12,5 @@
 - Fast R-CNN ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=8d12530fad2a4641b3d297e2ec10834d))
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=d968def243c646f3a5a55f46494a46ca))
 - Semantic-Aware Domain Generalized Segmentation ([Sohyun](https://broken-minute-4b4.notion.site/Semantic-Aware-Domain-Generalized-Segmentation-7a027fac07cf41d783d52c0efde2d8c4))
+- MR-GNN: Multi-Resolution and Dual Graph Neural Network for PRedicting Structured Entity Interactions ([JiYe](https://dawn-laser-9d4.notion.site/MR-GNN-Multi-Resolution-and-Dual-Graph-Neural-Network-for-PRedicting-Structured-Entity-Interactions-062e5c1b242c447aa8c484dff10a4371))
+- Communicative Representation Learning on attributed molecular graphs ([JiYe](https://dawn-laser-9d4.notion.site/Communicative-Representation-Learning-on-attributed-molecular-graphs-8c7dde037a12414091d214b3fcdf26d0))
