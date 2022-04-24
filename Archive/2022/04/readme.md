@@ -11,3 +11,4 @@
 - Rich feature hierarchies for accurate object detection and semantic segmentation ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=d2c5f8a0bb2849eba9b931a516d06da2))
 - Fast R-CNN ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=8d12530fad2a4641b3d297e2ec10834d))
 - Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks ([Seungwook](https://www.notion.so/MSCho-CVLAB-Paper-Review-d4976316a91645af84970e3d1aab5b2c?p=d968def243c646f3a5a55f46494a46ca))
+- Semantic-Aware Domain Generalized Segmentation ([Sohyun](https://broken-minute-4b4.notion.site/Semantic-Aware-Domain-Generalized-Segmentation-7a027fac07cf41d783d52c0efde2d8c4))
