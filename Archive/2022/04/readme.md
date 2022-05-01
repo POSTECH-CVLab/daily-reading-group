@@ -14,3 +14,5 @@
 - Semantic-Aware Domain Generalized Segmentation ([Sohyun](https://broken-minute-4b4.notion.site/Semantic-Aware-Domain-Generalized-Segmentation-7a027fac07cf41d783d52c0efde2d8c4))
 - MR-GNN: Multi-Resolution and Dual Graph Neural Network for PRedicting Structured Entity Interactions ([JiYe](https://dawn-laser-9d4.notion.site/MR-GNN-Multi-Resolution-and-Dual-Graph-Neural-Network-for-PRedicting-Structured-Entity-Interactions-062e5c1b242c447aa8c484dff10a4371))
 - Communicative Representation Learning on attributed molecular graphs ([JiYe](https://dawn-laser-9d4.notion.site/Communicative-Representation-Learning-on-attributed-molecular-graphs-8c7dde037a12414091d214b3fcdf26d0))
+- Type-aware anchor link prediction across heterogeneous networks based on graph attention network ([JiYe](https://dawn-laser-9d4.notion.site/Type-aware-anchor-link-prediction-across-heterogeneous-networks-based-on-graph-attention-network-68f466bbfacb422db6e64eaae544a616))
+- Multi-hop Attention Graph neural networks ([JiYe](https://dawn-laser-9d4.notion.site/Multi-hop-Attention-Graph-neural-networks-83f5f6ea08de4424b50cdd6c22d36977))
